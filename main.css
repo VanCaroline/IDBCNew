@@ -766,6 +766,7 @@ border:0px;
 width:250px; 
 height:40px; 
 border-radius: 3px;
+
 }
 
 #Email{
@@ -775,8 +776,34 @@ border:0px;
 width:250px; 
 height:40px; 
 border-radius: 3px; 
-float:right; position: 
-relative; top:-41px;
+float:right; 
+position: relative; 
+top: -62px;
+}
+
+#Compania{
+color:white; 
+background-color:#00557d; 
+border:0px;
+width:250px; 
+height:40px; 
+border-radius: 3px; 
+position: relative; 
+margin-top: 10px;
+}
+
+
+#Pais{
+color:white; 
+background-color:#00557d; 
+border:0px;
+width: 272px;
+height: 61px;
+border-radius: 3px; 
+float:right; 
+position: relative; 
+margin-bottom: 10px;
+top: -62px;
 }
 
 #table-10{
