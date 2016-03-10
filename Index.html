@@ -20,8 +20,10 @@
 
   <!--Scripts-->
    <script src="jquery-1.12.0.min.js"></script>
-    <script src="Navbar.js"></script>
     <script src="ScrollingEffect.js"></script>
+    <script src="Navbar.js"></script>
+    <script src="animatescroll.js"></script>
+
     <script src="VideoCode.js"></script>
 
 
@@ -41,6 +43,9 @@
             <source src="Working-Space.webm" type="video/webm">Your browser does not support the video tag. I suggest you upgrade your browser.
         </video>
     </div>
+   
+    
+ <a class="salida" id="pruebaboton-1"><img src="arrow.png" style="width:10%; height:15%; "></a>
 </div>
 
 
@@ -57,7 +62,7 @@
 
 
             <li class="menu__item menu__item--current"><a href="#" class="menu__link">Home</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Servicios</a></li>
+            <li class="menu__item"><a  href="#" class="menu__link">Servicios</a></li>
             <li class="menu__item"><a href="#" class="menu__link">Metodologia</a></li>
             <li class="menu__item"><a href="#" class="menu__link">Clientes</a></li>
             <li class="menu__item"><a href="#" class="menu__link">Nosotros</a></li>
@@ -88,9 +93,9 @@
     </div>
  
 </div> <!--End of Header Containing Section-->
+<div id="llegada-1" style="width:100%; background-color:white; z-index:10000;">
+  <div  style="font-size:50px; color:#4b4b4b; padding-left:36%; margin-top:7%;">What <strong>we </strong>offer</div>
 
-<div style="width:100%; background-color:white; z-index:10000;">
-  <div style="font-size:50px; color:#4b4b4b; padding-left:36%; margin-top:7%;">What <strong>we </strong>offer</div>
   <div style="display:inline-block;"><img id="LineImage1" style="width10%; height:1%; float:left;" src="Line.png" alt="Line"></img><p style="font-size:32px; float:right;">desarrollo de tecnologia</p></div>
 
   <div style="padding-left:30%; margin-top:5%;">
@@ -103,7 +108,7 @@
     <img id="Image03" style="float:left; height:120px;" src="Image03.png" alt="Image03"></img>
   </div>
   </div>
-
+</div>
   <div style="padding-left:30%; margin-top:20%;">
     <div><img id="Image01" style="float:left; height:120px;" src="Image01.png" alt="Image01">
     </div>
@@ -112,13 +117,16 @@
   </div>
   <div style="padding-left:40%;">
     <img id="Image03" style="float:left; height:120px;" src="Image03.png" alt="Image03"></img>
+    
   </div>
+
   </div>
 
   
 
 
-<div style="font-size:50px; color:#4b4b4b; padding-left:0%; margin-top:33%;">
+<div  style="font-size:50px; color:#4b4b4b; padding-left:0%; margin-top:33%;">
+  
   <div style="display:inline-block;"><img id="LineImage1" style="width10%; height:1%; float:left;" src="Line.png" alt="Line"></img><p style="font-size:32px; float:right;">estrategia de negocios</p></div>
 
   <div style="padding-left:30%; margin-top:5%;">
@@ -144,14 +152,16 @@
   </div>    <!--DIV 4 linea-->
 </div>  <!--DIV 2 parte entera-->
 </div>  <!--DIV 4 linea-->
+
 </div> <!--TOTAL-->
 
+ 
 
 
 
-<div style="background-image:url(Startups.png); width:100%; position:absolute; top:2050px; height:950px;">
+<div  style="background-image:url(Startups.png); width:100%; position:absolute; top:2050px; height:950px;">
 
-<div style="padding-left:45%; position:relative; margin-top:22%;"><img id="Rocket" style="height:120px;" src="Rocket.png" alt="Rocket"></img></div>
+<div  style="padding-left:45%; position:relative; margin-top:22%;"><img id="Rocket" style="height:120px;" src="Rocket.png" alt="Rocket"></img></div>
 
 <div style="font-size:50px; color:white; padding-left:26%; margin-top:1%; position:relative;">Trabajamos con <strong>STARTUPS </strong></div>
 
@@ -475,3 +485,21 @@
 
 </body>
 </html>
+
+<script type="text/javascript">
+  $(document).ready(function(){      
+
+    $('.salida').on('click', function () {
+
+          var n=$(this).attr('id').split('-');
+          console.log(n);
+          $("#llegada-" + n[1]).animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});
+    });
+
+
+  });
+
+
+
+</script>
+

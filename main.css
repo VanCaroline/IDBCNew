@@ -1296,3 +1296,14 @@ z-index:9999;
   height: 110px;
   line-height: 10px;
 }
+
+#pruebaboton-1{
+  padding-left: 50%;
+}
+
+#pruebaboton-3{
+  padding-right: 30%;
+  z-index: 1;
+  position: absolute;
+
+}
