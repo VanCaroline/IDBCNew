@@ -361,7 +361,7 @@ width:"570px";
   height:516px;
   display:block;
   position: absolute;
-  top:1300px;
+  top:3000px;
   height:360px;
 }
 
@@ -748,6 +748,7 @@ top:3100px;
 position:absolute;
 }
 
+
 #Message
 {
 color:white; 
@@ -805,6 +806,7 @@ position: relative;
 margin-bottom: 10px;
 top: -62px;
 }
+
 
 #table-10{
 top:1200px;
