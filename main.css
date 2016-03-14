@@ -49,6 +49,12 @@ height: 120px !important;
 width: 200px;
 }
 
+#LogoImage2{
+padding-left: 150px;
+height: 120px !important;
+width: 200px;
+}
+
 
 .homepage-hero-module {
     border-right: none;
@@ -80,7 +86,8 @@ width: 200px;
 .video-container .filter {
     z-index: 100;
     position: absolute;
-    background: rgba(0, 0, 0, 0.4);
+  /*  background: rgba(0, 0, 0, 0.4);*/
+    background: rgba(40, 40, 40, 0.7);
     width: 100%;
 }
 .video-container video {
@@ -99,68 +106,8 @@ width: 200px;
  float:left;
 
 }
-/*
-#header2{
-width: 100%;
-background-color:rgba(0, 0, 0, 0.85);
-height:1016px;
-display:block;
-position: absolute;
-z-index:3000;
-}
-*/
-#sentence02{
- family-font:Helvetica,sans-serif;
-}
-/*
-video#bgvid { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    /*background: url() no-repeat;
-    background-size: cover; 
-}
-*/
-/*video { display: block; }*/
 
 
-/*NAAAAV*/
-
-
-nav {
-  background: white;
-  transition: opacity 1s ease;
-  opacity: 0.3;
-
-  height: 120px;
-  line-height: 20px;
-  width: 100%;
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-ul#navbar.menu__list{
-opacity:1 !important;
-z-index:9999;
-}
-
-.scrolled {
-  opacity: 0.97;
-  height: 110px;
-  line-height: 10px;
-}
 
 /*Viejo Codigo*/
 
@@ -357,7 +304,6 @@ width:"570px";
 
 #WhoWeAre{
   width: 100%;
-  background-color:#669bb9;
   height:516px;
   display:block;
   position: absolute;
@@ -366,11 +312,11 @@ width:"570px";
 }
 
 #WhoWeAre-Title{
-font-size:40px;
+font-size:50px;
 color:white; 
 position:absolute; 
 top:30px; 
-padding-left:80px; 
+padding-left:75px; 
 font-family:Futura; 
 font-weight:Medium;
 }
@@ -384,8 +330,8 @@ width:20%;
 }
 
 #WhoWeAre-Paragraph02{
-top:60px; 
-padding-left:680px; 
+top:240px; 
+padding-left:290px; 
 position:absolute;
 }
 
@@ -403,7 +349,7 @@ position:absolute;
   display:block;
   position: absolute;
   top:350px; 
-  height:740px; 
+  height:940px; 
   color:white;
 }
 
@@ -448,9 +394,6 @@ padding-left:0px;
 position:absolute;
 }
 
-#icons-02{
-
-}
 
 #Paragraph-01{
     width: 80%;
@@ -596,12 +539,12 @@ position:absolute;
 
 li {
     float: left;
-      font-family: "Helvetica";
+     
 }
 
 li a {
     display: block;
-    color: #000000 ;
+    color: #ffffff ;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -718,8 +661,8 @@ height:30px;
 #GetInTouch{
 background-color:white; 
 position:absolute; 
-height:800px; 
-top:2400px;
+height:200px; 
+top:1750px;
 }
 
 #GetInTouch-Title{
@@ -744,7 +687,7 @@ float:left;
 background-color:#404040; 
 height:100px; 
 width:100%; 
-top:3100px; 
+top:2600px; 
 position:absolute;
 }
 
@@ -1156,9 +1099,10 @@ padding-left: 3%
 color:white;
 position:absolute;
 font-family:AvenirBold;
-font-size:60px;
+font-size:42px;
 top: 53%;
 left: 41%;
+z-index:1000000; 
 }
   .rw-sentence span{
   color: #fff;
@@ -1273,21 +1217,22 @@ section.module.parallax {
 
 
 nav {
-  background: white;
-  transition: opacity 1s ease;
-  opacity: 0.3;
-  height: 120px;
-  line-height: 20px;
-  width: 100%;
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
+ 
+    background: white;
+    transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 120px;
+    line-height: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    color: white !important;
 }
 
 ul#navbar.menu__list{
-opacity:1 !important;
+
 z-index:9999;
 }
 
@@ -1295,6 +1240,11 @@ z-index:9999;
   opacity: 0.97;
   height: 110px;
   line-height: 10px;
+}
+
+#Bar.menu--shylock .menu__link::after
+background: white;
+
 }
 
 #pruebaboton-1{
@@ -1307,3 +1257,8 @@ z-index:9999;
   position: absolute;
 
 }
+
+ul{
+    background-color: transparent;
+}
+

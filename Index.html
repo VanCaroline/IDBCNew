@@ -13,7 +13,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
 <head>
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Helvetica">
+
 
   <!--Stylesheets-->
   <link rel="stylesheet" href="Main.css">
@@ -21,11 +21,10 @@
   <!--Scripts-->
    <script src="jquery-1.12.0.min.js"></script>
     <script src="ScrollingEffect.js"></script>
-    <script src="Navbar.js"></script>
     <script src="animatescroll.js"></script>
-
     <script src="VideoCode.js"></script>
 
+  
 
 </head>
 
@@ -35,9 +34,10 @@
 
   <!--Header: Logo and Navigation Bar-->
 
+
 <div class="homepage-hero-module">
     <div class="video-container">
-        <div class="filter"></div>
+        <div class="filter" style="height:850px; z-index:1;"></div>
         <video autoplay loop class="fillWidth">
             <source src="Working-Space.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
             <source src="Working-Space.webm" type="video/webm">Your browser does not support the video tag. I suggest you upgrade your browser.
@@ -45,20 +45,50 @@
     </div>
    
     
- <a class="salida" id="pruebaboton-1"><img src="arrow.png" style="width:10%; height:15%; "></img></a>
+ <a class="salida" id="pruebaboton-1" style="padding-left:46%;"><img src="arrow.png" style="width:10%; height:15%; "></img></a>
+</div>
+
+
+       <div id="Bar" style="position:absolute; z-index:100000000000; top:0px;">
+
+         <img id="LogoImage" src="Logo.png" alt="Logo" style=""></img>
+
+<span class="menu--shylock" style="padding-left:100%; padding-top:-40%;">
+
+      
+          
+          <ul class="menu__list" style="position:absolute; padding-top:-90%; width:100%; float:right; padding-left:100%;">
+
+
+            <li class="menu__item menu__item--current"><a href="#" class="menu__link" style="color:white;">Home</a></li>
+            <li class="menu__item"><a  href="#" class="menu__link" style="color:white;">Servicios</a></li>
+            <li class="menu__item"><a href="#" class="menu__link" style="color:white;">Metodologia</a></li>
+            <li class="menu__item"><a href="#" class="menu__link" style="color:white;">Clientes</a></li>
+            <li class="menu__item"><a href="#" class="menu__link" style="color:white;">Nosotros</a></li>
+            <li class="menu__item"><a href="#" class="menu__link" style="color:white;">Contacto</a></li>
+          </ul>
+</span>
+
 </div>
 
 
 
 <div id="header">
+ 
+
+    <!--Navigation Bar Fixed-->
+
+
+
+
        
-    <!--Navigation Bar-->
+    <!--Navigation Bar scrolled-->
 
          <nav class="menu--shylock">
-          <div id="hola">
-                   <img id="LogoImage" src="Logo.png" alt="Logo"></img>
           
-          <ul class="menu__list" id="navbar">
+                   <img id="LogoImage" src="LogoBlue.png" alt="Logo"></img>
+          
+          <ul class="menu__list" id="navbar" style="position:absolute; float:right; padding-left:48.5%;">
 
 
             <li class="menu__item menu__item--current"><a href="#" class="menu__link">Home</a></li>
@@ -68,7 +98,7 @@
             <li class="menu__item"><a href="#" class="menu__link">Nosotros</a></li>
             <li class="menu__item"><a href="#" class="menu__link">Contacto</a></li>
           </ul>
-          </div>
+          
 
  </nav>
 
@@ -77,41 +107,40 @@
 
     <!--Header Paragraph-->
     <div class="rw-sentence">
-    <div class=" rw-words-1">        
-    <div id="Paragraph-01">
-     <p style="font-family:Avenir; font-size:72px;">SERVICIOS Y SOLUCIONES <br>TECNOLÓGIAS NOS DEFINEN <br><p style="text-align:left; padding-left:120px; font-family:Avenir; font-size:62px;">apoyando a</p> &nbsp;
-              <div style="position:absolute; float:right; top:53%; left:41%">
-              <span id="WordsChange"> EMPRENDEDORES</span>
-              <span id="WordsChange"> CORPORACIONES</span>
-              <span id="WordsChange"> COMUNIDADES</span>
-              <span id="WordsChange"> EMPRENDEDORES</span>
-              <span id="WordsChange"> CORPORACIONES</span>
-              <span id="WordsChange"> COMUNIDADES</span>
-              </div>
-      </p>
-    </div>
-    </div>
+      <div class=" rw-words-1">        
+        <div id="Paragraph-01" style="z-index:1000;">
+         <p style="font-family:Avenir; font-size:72px;">SERVICIOS Y SOLUCIONES <br>TECNOLÓGIAS NOS DEFINEN <br><p style="text-align:left; padding-left:100px; font-family:Avenir;   letter-spacing: 2px; font-size:42px;">DE ALTO IMPACTO PARA</p> &nbsp;
+                  <div style="position:absolute; float:right; top:56.2%; left:56%">
+                  <span id="WordsChange"> EMPRENDEDORES</span>
+                  <span id="WordsChange"> CORPORACIONES</span>
+                  <span id="WordsChange"> COMUNIDADES</span>
+                  <span id="WordsChange"> EMPRENDEDORES</span>
+                  <span id="WordsChange"> CORPORACIONES</span>
+                  <span id="WordsChange"> COMUNIDADES</span>
+                  </div>
+          </p>
+        </div>
+      </div>
  
-</div> <!--End of Header Containing Section-->
+    </div> <!--End of Header Containing Section-->
 <div id="llegada-1" style="width:100%; background-color:white; z-index:10000;">
-  <div  style="font-size:50px; color:#4b4b4b; padding-left:36%; margin-top:7%;">What <strong>we </strong>offer</div>
+    <div  style="font-size:50px; color:#4b4b4b; padding-left:39%; margin-top:7%;">What <strong>we </strong>offer</div>
 
 
-  <div style="display:inline-block;"><p style="font-size:32px; float:right;">desarrollo de tecnologia</p></div>
+    <div style="display:inline-block; padding-left:20%;"><p style="font-size:32px; float:right; margin-top:11.5%;">desarrollo de tecnologia</p></div>
 
 
   <div style="padding-left:17%; margin-top:5%;">
-    <div><img id="Image01" style="float:left; height:120px;" src="Image01.png" alt="Image01">
+    <div>
+      <img id="Image01" style="float:left; height:120px;" src="Image01.png" alt="Image01">
     </div>
-  <div style="padding-left:14%;">
-    <img id="Image02" style="float:left; height:120px;" src="Image02.png" alt="Image02">
+    <div style="padding-left:14%;">
+      <img id="Image02" style="float:left; height:120px;" src="Image02.png" alt="Image02">
+    </div>
+    <div style="padding-left:27%;">
+     <img id="Image03" style="float:left; height:120px;" src="Image03.png" alt="Image03"></img>
+    </div>
   </div>
-  <div style="padding-left:27%;">
-    <img id="Image03" style="float:left; height:120px;" src="Image03.png" alt="Image03"></img>
-  </div>
-  </div>
-
-</div>
 
   <div style="padding-left:50.3%; position:absolute;">
     <img id="Line" style="height:420px;" src="Line.png" alt="Line">
@@ -131,39 +160,61 @@
 
   </div>
 
+
+<div style="display:inline-block; padding-left:57%; margin-top:-23.1%; position:absolute;"><p style="font-size:32px; float:right; margin-top:0;">estrategia de negocios</p></div>
+
+
+  <div style="padding-left:54%; margin-top:-15%; position:absolute;">
+    <div>
+      <img id="Image01" style="float:left; height:120px;" src="Image01.png" alt="Image01">
+    </div>
+    <div style="padding-left:150%; position:absolute;">
+      <img id="Image02" style="float:left; height:120px;" src="Image02.png" alt="Image02">
+    </div>
+    <div style="padding-left:300%; position:absolute;">
+     <img id="Image03" style="float:left; height:120px;" src="Image03.png" alt="Image03"></img>
+    </div>
+  </div>
+
+
   
+  <div style="padding-left:54%; margin-top:20%;">
 
+    <div><img id="Image01" style="float:left; height:120px;" src="Image01.png" alt="Image01">
+    </div>
+  <div style="padding-left:26%;">
+    <img id="Image02" style="float:left; height:120px;" src="Image02.png" alt="Image02">
+  </div>
+  <div style="padding-left:50.1%;">
+    <img id="Image03" style="float:left; height:120px;" src="Image03.png" alt="Image03"></img>
+    
+  </div>
 
-<div style="padding-left:57%; margin-top:-22.7%;">
-  <div style="display:inline-block;"><p style="font-size:32px; float:right;">estrategia de negocios</p></div></div>
-
-
-<div style="padding-left:20%; margin-top:0;">
-  <div>
-      <div>
-        <img id="Image01" style="float:left; height:120px;" src="Image01.png" alt="Image01">
-      </div>
-     
-     <div style="padding-left:14%;">
-        <img id="Image02" style="float:left; height:120px;" src="Image02.png" alt="Image02">
-     </div>
-     
-     <div style="padding-left:27%;">
-       <img id="Image03" style="float:left; height:120px;" src="Image03.png" alt="Image03"></img>
-     </div>
- </div>
-</div>  
+  </div>
 
 
 
 
-  </div>    <!--DIV 4 linea-->
-</div>  <!--DIV 2 parte entera-->
-</div>  <!--DIV 4 linea-->
 
-</div> <!--TOTAL-->
+</div>
 
- 
+
+
+
+
+
+
+<div  style="background:#84b73f; width:100%; position:absolute; top:1670px; height:390px;">
+
+
+<div style="font-size:50px; color:white; padding-left:43%; margin-top:7%; position:relative;">Method</div>
+
+<p style="color:white; width:40%; font-family:Avenir; font-size:22px;padding-left:32%;text-align:justify; position:relative;top:0%;">Eficiencia encofada en las <strong>necesidades </strong>del cliente</p>
+<br>
+
+<div  style="padding-left:15%; position:relative; margin-top:2%;"><img id="Rocket" style="height:60px;" src="Method_Menu.png" alt="Method"></img></div>
+
+</div>
 
 
 
@@ -173,7 +224,7 @@
 
 <div style="font-size:50px; color:white; padding-left:26%; margin-top:1%; position:relative;">Trabajamos con <strong>STARTUPS </strong></div>
 
-<p style="color:white; width:80%; font-family:Avenir; font-size:22px;padding-left:10%;text-align:justify; position:relative;top:1%;">Somos amantes de las buenas ideas y podemos ayudarte con la tuya, en equipo podemos hacer un producto exitoso ya que ayudas a CO-CREAR startups de alta calidad que se transforman en grandes companias y con amplios reconocimientos. Cambiamos el rol del emprendedor, para que pueda encargarse de hacer crecersu negocio en linea mientras nosotros le ayudamos con la estrategia, planificacion y ejecucion de la idea. </p>
+<p style="color:white; width:70%; font-family:Avenir; font-size:22px;padding-left:15%;text-align:justify; position:relative;top:1%;">Somos amantes de las buenas ideas y podemos ayudarte con la tuya, en equipo podemos hacer un producto exitoso ya que ayudas a <strong>CO-CREAR</strong> startups de alta calidad que se transforman en grandes companias y con amplios reconocimientos. Cambiamos el rol del emprendedor, para que pueda encargarse de hacer crecersu negocio en linea mientras nosotros le ayudamos con la estrategia, planificacion y ejecucion de la idea. </p>
 <br>
 
 
@@ -182,37 +233,40 @@
 
 
 
-
-
-
-<div id="WhoWeAre"> <!--Start of Who We Are Section-->
-    <h1 id="WhoWeAre-Title">NOSOTROS</h1>
-    <p id="WhoWeAre-Paragraph01">Somos una empresa con más de 12 años de experiencia, orientada al desarrollo de servicios y soluciones tecnológicas eficientes y de alto impacto.</p>
-    <div style="color:white;"> <!--Start of paragraphs in Who We Are Section-->
+<div id="WhoWeAre" style="height:1000px; top:2890px;"> <!--Start of Who We Are Section-->
+    <h1 id="WhoWeAre-Title" style="padding-left:45%; top:15%;">Team</h1>
+  
+   
       
-      <img id="WhoWeAre-Image01" src="Whoweare.png" alt="Whoweare" height="200">
+     
       
       <div id="WhoWeAre-Paragraph02">
-      
-      <p style="weight:bold;">PARTICULARES</p>
-      
-      <p>No solo las grandes empresas necesitan de la tecnologia, por ello creemos en los particulares y sus iniciativas.</p>
-      <br>
-      <p style="weight:bold;">CORPORATIVOS</p>
-       
-      <p>Nos integramos con complejas arquitecturas empresariales, y damos soluciones de alta tecnologia para las mismas.</p>
-        <br>
-      <p style="weight:bold;">EMPRENDEDORES</p>
-        
-      <p>Le apostamos a todos los que estan empezando su proyecto propio, y apoyamos con todo a su extio.</p>
-    </div> <!--End of paragraphs in Who We Are Section-->
+      <p style="color:white; width:80%; font-family:Avenir; font-size:28px;padding-left:10%;text-align:center; position:relative;">Con una amplia cartera de clientes desde<br> <strong>Particulares / Corporativos / Emprendedores</strong></p>
+       <p style="color:white; width:85%; font-family:Avenir; font-size:28px;padding-left:10%;text-align:center; position:relative;">Nuestra meta es abarcar los diversos mercados <br>existentes y lograr diversidad de soluciones tecnologicas </p>
+     
+
 </div> <!--End of Who We Are Section-->
+
+<div style="top:50%; z-index:100000;">
+
+</div>
+
+
 <section class="module parallax">
 
 
-<div style="background-color:#f6f6f6; width:100%; position:absolute; top:600px; height:450px;">
 
-<div style="font-size:50px; color:#9a9a9a; padding-left:36%; margin-top:1%; position:relative;"><strong>Latest </strong>projects</div>
+
+
+<div style="background-color:#0b617d; width:100%; position:absolute; top:500px; height:580px;">
+
+<div style="font-size:50px; color:#ffffff; padding-left:36%; margin-top:8%; position:relative;"><strong>Latest </strong>projects</div>
+
+      <img id="Image001" style="float:left; position:absolute; padding-left:100px;height:150px; top:280px;" src="Arrowleft.png" alt="001">
+      <img id="Image001" style="float:left; position:absolute; padding-left:280px;height:353px;" src="001.png" alt="001">
+      <img id="Image002" style="float:left; padding-left:720px;height:320px; position:absolute; top:198px;" src="002.png" alt="002">
+      <img id="Image001" style="float:left; position:absolute; padding-left:1240px;height:175px; top:266px;" src="Arrowright.png" alt="001">
+
 
 <p style="color:white; width:80%; font-family:Avenir; font-size:22px;padding-left:10%;text-align:justify; position:relative;top:1%;"> </p>
 </div>
@@ -220,25 +274,38 @@
 
 
 
-<div style="background-image:url(WorkWithUsBackground.png); width:100%; position:absolute; top:1050px; height:450px;">
 
-<div style="font-size:50px; color:#9a9a9a; padding-left:36%; margin-top:1%; position:relative;">Work <strong>with </strong>us</div>
+<div style="background:#be641e; width:100%; position:absolute; top:1080px; height:680px; z-index:1;">
+
+      <img id="Image001" style="float:left; position:absolute; padding-left:46%;height:90px; top:120px;" src="Coffee.png" alt="001">
+
+<div style="font-size:50px; color:#ffffff; padding-left:38%; margin-top:15%; position:relative;">Work <strong>with </strong>us</div>
+<br>
+<p style="color:#f6ebe0; width:80%; font-family:Avenir; font-size:28px;padding-left:10%;text-align:center; position:relative;top:1%;">Obtenemos resultados increibles, impulsados por nuestra definicion de equipos integrados de producto que siguen una vision compartida. </p>
+<br>
+<p style="color:#f6ebe0; width:80%; font-family:Avenir; font-size:28px;padding-left:10%;text-align:center; position:relative;top:1%;">Todos lso dias trabajaras con un eqipo como dinamico; un equipo que confia en nuestra formula de trabajo, y un equipo dispuesto a desafiar y pensar en grande.</p>
 
 <p style="color:white; width:80%; font-family:Avenir; font-size:22px;padding-left:10%;text-align:justify; position:relative;top:1%;"> </p>
+
+<img id="Image001" style="float:left; position:absolute; padding-left:39%;height:90px; top:520px;" src="Aplica.png" alt="001">
 </div>
+
+
 
 
 
 <div id="GetInTouch"> <!--Start of Get In Touch Section-->
 
- <h1 id="GetInTouch-Title">GET IN TOUCH</h1>
 
       <!-- Contact -->
+ <img id="Image03" style="float:left; height:500px; top:80px; position:absolute; padding-left:10%; z-index:100000;" src="Getintouch.png" alt="Image03"></img>
 
-      <article class="container box style3"> <!--Start of Container Section-->
+
+
+      <article class="container box style3" style="top:-50%;"> <!--Start of Container Section-->
 
         <form id="yourform" method="POST" action="Contact.php">  <!--Start of Contact Form-->
-          <div class="row 50%" id="Row">  <!--Start of Row-->
+          <div class="row 50%" id="Row" style="padding-left:57%;">  <!--Start of Row-->
 
            <div> <!--Start of Name and Email Section on Contact Form -->
                 <div class="6u 12u$(mobile)"><input type="text" class="text" name="Name" placeholder="Name" id="Name"/></div>
@@ -505,7 +572,10 @@
 
  </div> <!--End of Get In Touch Section-->
 
- <div id="Footer"></div> <!--Footer Section-->
+ <div id="PreFooter" style="background-image:url(Black.png); top:2400px; position:absolute;;width:100%; height:200px;">     
+
+</div> <!--Footer Section-->
+ <div id="Footer" style="background-color:#090909; font-size:22px; color:grey;"><p style="padding-left:37%; padding-top:2.5%;">Todos los derechos reservados ®</p></div> <!--Footer Section-->
 </div>
 </section>
 
