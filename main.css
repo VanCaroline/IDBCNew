@@ -10,7 +10,7 @@ ul{
 }
 
 head, body{
-font-family:Avenir; 
+font-family: "Avenir", sans serif;
 }
  
 h1{
@@ -472,10 +472,11 @@ position:absolute;
 /* Shylock */
 .menu--shylock .menu__link {
   position: relative;
+  font-size:22px;
   margin: 0 1em;
   padding-right: 0;
   padding-left: 0;
-  color: #2C2C2C;
+  color: #b5b5b5;
   -webkit-transition: color 0.4s;
   transition: color 0.4s;
   z-index:999;
@@ -484,7 +485,7 @@ position:absolute;
 .menu--shylock .menu__item--current .menu__link,
 .menu--shylock .menu__item--current .menu__link:hover,
 .menu--shylock .menu__item--current .menu__link:focus {
-  color: #00557d;
+  color: white;
 }
 
 .menu--shylock .menu__item--current .menu__link::after,
@@ -534,7 +535,7 @@ position:absolute;
 }
 
 .menu--shylock .menu__link::after {
-  background: #00557d;
+  background: #b5b5b5;
 }
 
 li {
@@ -1200,9 +1201,9 @@ section.module.parallax {
 
 nav {
  
-    background: white;
+    background: transparent;
     transition: opacity 1s ease-out;
-    opacity: 0;
+    opacity: 1;
     height: 120px;
     line-height: 20px;
     width: 100%;
@@ -1210,7 +1211,7 @@ nav {
     top: 0;
     left: 0;
     z-index: 10;
-    color: white !important;
+
 }
 
 ul#navbar.menu__list{
@@ -1224,11 +1225,6 @@ z-index:9999;
   line-height: 10px;
 }
 
-#Bar.menu--shylock .menu__link::after
-background: white;
-
-}
-
 #pruebaboton-1{
   padding-left: 50%;
 }
@@ -1240,9 +1236,6 @@ background: white;
 
 }
 
-ul{
-    background-color: transparent;
-}
 
 .input {
   position: relative;
