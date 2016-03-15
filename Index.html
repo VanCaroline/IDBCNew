@@ -16,7 +16,7 @@
 
 
   <!--Stylesheets-->
-  <link rel="stylesheet" href="Main.css">
+  <link rel="stylesheet" href="main.css">
 
   <!--Scripts-->
    <script src="jquery-1.12.0.min.js"></script>
@@ -307,12 +307,48 @@
         <form id="yourform" method="POST" action="Contact.php">  <!--Start of Contact Form-->
           <div class="row 50%" id="Row" style="padding-left:57%;">  <!--Start of Row-->
 
-           <div> <!--Start of Name and Email Section on Contact Form -->
-                <div class="6u 12u$(mobile)"><input type="text" class="text" name="Name" placeholder="Name" id="Name"/></div>
-      
-                <div class="6u$ 12u$(mobile)"><input type="text" class="text" name="Email" placeholder="Email" id="Email"/></div>
+           <div > <!--Start of Name and Email Section on Contact Form -->
 
-                <div class="6u$ 12u$(mobile)"><input type="text" class="text" name="Compania" placeholder="Compania" id="Compania"/></div>
+            <div class="6u 12u$(mobile)" id="Name">
+              <span class="input input--kozakura">
+                <input type="text" class="input__field input__field--kozakura" placeholder="Name" />
+                <label class="input__label input__label--kozakura" >
+                     <span class="input__label-content input__label-content--kozakura" data-content="Name">Name</span>
+               </label>
+               <svg class="graphic graphic--kozakura" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+              <path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z"/>
+              </svg>
+
+              
+              </span>
+
+                </div>
+      
+            <div class="6u$ 12u$(mobile)" id="Email">
+                <span class="input input--kozakura">
+                <input type="text" class="input__field input__field--kozakura" placeholder="Email" />
+                <label class="input__label input__label--kozakura" >
+                     <span class="input__label-content input__label-content--kozakura" data-content="Email">Email</span>
+               </label>
+               <svg class="graphic graphic--kozakura" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+              <path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z"/>
+              </svg>
+
+              </span>
+            </div>
+
+                <div class="6u$ 12u$(mobile)" id="Compania">
+                    <span class="input input--kozakura">
+                    <input type="text" class="input__field input__field--kozakura" placeholder="Compania" />
+                    <label class="input__label input__label--kozakura" >
+                         <span class="input__label-content input__label-content--kozakura" data-content="Compania">Compani</span>
+                   </label>
+                   <svg class="graphic graphic--kozakura" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                  <path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z"/>
+                  </svg>
+
+                  </span>
+                </div>
 
                 <div class="6u$ 12u$(mobile)"><select type="text" name="Pais" id="Pais">
                     <option value="AF">Afganistán</option>
@@ -552,7 +588,6 @@
                     </select>
                 </div>
            </div> <!--End of Name and Email Section on Contact Form -->
-
            <br>
 
            <div class="12u$" style=""> <!--Start of Message Section on Contact Form -->
@@ -562,7 +597,7 @@
            <div class="12u$"> <!--Start of Send Message Section on Contact Form -->
                 <ul class="actions" style="top:400px;">
                   <li>
-                    <input type="submit" value="Send Message" style="background-color:#669aba; margin-top: 5px;"/>
+                    <input type="submit" value="Send Message" style="background-color:#669aba; margin-top: 203px;"/>
                   </li>
                 </ul>
            </div> <!--End of Send Message Section on Contact Form -->
@@ -594,7 +629,40 @@
     });
 
 
-  });
+  })
+  (function() {
+        // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+        if (!String.prototype.trim) {
+          (function() {
+            // Make sure we trim BOM and NBSP
+            var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+            String.prototype.trim = function() {
+              return this.replace(rtrim, '');
+            };
+          })();
+        }
+
+        [].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
+          // in case the input is already filled..
+          if( inputEl.value.trim() !== '' ) {
+            classie.add( inputEl.parentNode, 'input--filled' );
+          }
+
+          // events:
+          inputEl.addEventListener( 'focus', onInputFocus );
+          inputEl.addEventListener( 'blur', onInputBlur );
+        } );
+
+        function onInputFocus( ev ) {
+          classie.add( ev.target.parentNode, 'input--filled' );
+        }
+
+        function onInputBlur( ev ) {
+          if( ev.target.value.trim() === '' ) {
+            classie.remove( ev.target.parentNode, 'input--filled' );
+          }
+        }
+      });
 
 
 
