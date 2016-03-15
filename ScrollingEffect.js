@@ -3,13 +3,12 @@ $(window).scroll(function(){
   var scroll = $(window).scrollTop();
 
   if (scroll > 0 ) {
-
- 
-    $('nav').css("background-color","white");
+    $('nav').addClass('scrolled');
     $('.menu__link').css("color", "#4b4b4b");
     $("#LogoImage").attr("src", "LogoBlue.png");
+    $('nav').addClass('scrolled');
+    $( "nav" ).css("background-color", "white");
 
- 
   }
 
   if (scroll <= 0 ) {
@@ -17,8 +16,7 @@ $(window).scroll(function(){
     $('nav').css("background-color", "transparent");
     $('.menu__link').css("color", "#b5b5b5");
     $("#LogoImage").attr("src", "Logo.png");
-    $('.menu__item--current').css("color", "white");
-    $('.menu__link::after').css("color", "white");
+
  }
 
 });

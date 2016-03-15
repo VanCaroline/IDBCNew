@@ -472,6 +472,7 @@ position:absolute;
 /* Shylock */
 .menu--shylock .menu__link {
   position: relative;
+  font-size:22px;
   margin: 0 1em;
   padding-right: 0;
   padding-left: 0;
