@@ -23,6 +23,27 @@
     <script src="ScrollingEffect.js"></script>
     <script src="animatescroll.js"></script>
     <script src="VideoCode.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    
+<!-- js -->
+<script src="js/classie.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
 
   
 
@@ -50,11 +71,14 @@
 
 
 
-
+<div id="wrapper">
 
 <div id="header">
  
 
+<header> 
+
+    <div class="container clearfix">
     <!--Navigation Bar Fixed-->
 
 
@@ -62,9 +86,11 @@
     <!--Navigation Bar scrolled-->
 
          <nav class="menu--shylock">
-          <div style="padding-left:92%; padding-top:6.7%; position:absolute;"><p style="font-size:20px;color:white;">EN/<strong>ES</strong></p></div>
+
+        
+          <div style="padding-left:92%; padding-top:5.5%; position:absolute;"><p style="font-size:20px;color:white;">EN/<strong>ES</strong></p></div>
           
-                   <img id="LogoImage" style="padding-top:3%;" src="Logo.png" alt="Logo"></img>
+                   <img id="LogoImage" style="" src="Logo.png" alt="Logo"></img>
           
           <ul class="menu__list" id="navbar" style="position:absolute; padding-top:2%; float:right; padding-left:35%;">
 
@@ -79,6 +105,9 @@
           
 
  </nav>
+
+     </div>
+</header><!-- /header -->
 
 
 </div>
@@ -182,7 +211,7 @@
 
 
 
-<div  style="background:#84b73f; width:100%; position:absolute; top:1670px; height:390px;">
+<div  style="background:#84b73f; width:100%; position:absolute; top:1670px; height:590px;">
 
 
 <div style="font-size:50px; color:white; padding-left:39%; margin-top:7%; position:relative;">Metodología</div>
@@ -196,13 +225,13 @@
 
 
 
-<div  style="background-image:url(Startups.png); width:100%; position:absolute; top:2050px; height:950px;">
+<div  style="background-image:url(Startups.png); width:100%; position:absolute; top:2250px; height:950px;">
 
 <div  style="padding-left:46%; position:relative; margin-top:22%;"><img id="Rocket" style="height:120px;" src="Rocket.png" alt="Rocket"></img></div>
 
 <div style="font-size:50px; color:white; padding-left:28%; margin-top:1%; position:relative;">Trabajamos con <strong>STARTUPS </strong></div>
 
-<p style="color:white; width:70%; font-family:Avenir; font-size:22px;padding-left:15%;text-align:justify; position:relative;top:1%;">Somos amantes de las buenas ideas y podemos ayudarte con la tuya, en equipo podemos hacer un producto exitoso ya que ayudas a <strong>CO-CREAR</strong> startups de alta calidad que se transforman en grandes companias y con amplios reconocimientos. Cambiamos el rol del emprendedor, para que pueda encargarse de hacer crecersu negocio en linea mientras nosotros le ayudamos con la estrategia, planificacion y ejecucion de la idea. </p>
+<p style="color:white; width:70%; font-family:Avenir; font-size:22px;padding-left:15%;text-align:justify; position:relative;top:1%;">Somos amantes de las buenas ideas y podemos ayudarte con la tuya, en equipo podemos hacer un producto exitoso ya que ayudas a <span id="Cocrear"><strong>CO-CREAR</strong></span> startups de alta calidad que se transforman en grandes companias y con amplios reconocimientos. Cambiamos el rol del emprendedor, para que pueda encargarse de hacer crecersu negocio en linea mientras nosotros le ayudamos con la estrategia, planificacion y ejecucion de la idea. </p>
 <br>
 
 
@@ -211,7 +240,7 @@
 
 
 
-<div id="WhoWeAre" style="height:1000px; top:2890px;"> <!--Start of Who We Are Section-->
+<div id="WhoWeAre" style="height:1000px; top:3090px;"> <!--Start of Who We Are Section-->
     <h1 id="WhoWeAre-Title" style="padding-left:36.5%; top:15%;">Nuestro Equipo</h1>
   
    
@@ -236,7 +265,7 @@
 
 
 
-<div style="background-color:#0b617d; width:100%; position:absolute; top:500px; height:580px;">
+<div style="background-color:#0b617d; width:100%; position:absolute; top:700px; height:580px;">
 
 <div style="font-size:50px; color:#ffffff; padding-left:35%; margin-top:8%; position:relative;"><strong>Nuestros </strong>clientes</div>
 
@@ -253,7 +282,7 @@
 
 
 
-<div style="background:#be641e; width:100%; position:absolute; top:1080px; height:680px; z-index:1;">
+<div style="background:#be641e; width:100%; position:absolute; top:1280px; height:680px; z-index:1;">
 
       <img id="Image001" style="float:left; position:absolute; padding-left:47%;height:90px; top:120px;" src="Coffee.png" alt="001">
 
@@ -276,7 +305,7 @@
 
 
       <!-- Contact -->
- <img id="Image03" style="float:left; height:500px; top:80px; position:absolute; padding-left:10%; z-index:100000;" src="Getintouch.png" alt="Image03"></img>
+ <img id="Image03" style="float:left; height:400px; top:80px; position:absolute; padding-left:10%; z-index:100000;" src="Getintouch.png" alt="Image03"></img>
 
 
 
@@ -573,7 +602,7 @@
            </div> <!--End of Message Section on Contact Form -->
 
            <div class="12u$"> <!--Start of Send Message Section on Contact Form -->
-                <ul class="actions" style="top:400px;">
+                <ul class="actions" style="top:600px;">
                   <li>
                     <input type="submit" value="Send Message" style="background-color:#669aba; margin-top: 203px;"/>
                   </li>
@@ -585,10 +614,12 @@
 
  </div> <!--End of Get In Touch Section-->
 
- <div id="PreFooter" style="background-image:url(Black.png); top:2400px; position:absolute;;width:100%; height:200px;">     
+</div> <!--Wrapper-->
+
+ <div id="PreFooter" style="background-image:url(Black.png); top:5600px; position:absolute;;width:100%; height:200px;">     
 
 </div> <!--Footer Section-->
- <div id="Footer" style="background-color:#090909; font-size:22px; color:grey;"><p style="padding-left:37%; padding-top:2.5%;">Todos los derechos reservados ®</p></div> <!--Footer Section-->
+ <div id="Footer" style="background-color:#090909; top:5800px;font-size:22px; color:grey;"><p style="padding-left:37%; padding-top:2.5%;">Todos los derechos reservados ®</p></div> <!--Footer Section-->
 </div>
 </section>
 

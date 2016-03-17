@@ -8,6 +8,11 @@ $(window).scroll(function(){
     $("#LogoImage").attr("src", "LogoBlue.png");
     $('nav').addClass('scrolled');
     $( "nav" ).css("background-color", "white");
+    $( "nav" ).css("height", "150");
+
+
+
+
 
   }
 
@@ -16,6 +21,8 @@ $(window).scroll(function(){
     $('nav').css("background-color", "transparent");
     $('.menu__link').css("color", "#b5b5b5");
     $("#LogoImage").attr("src", "Logo.png");
+
+
 
  }
 

@@ -445,7 +445,7 @@ position:absolute;
 
 .menu__item {
   display: block;
-  margin: 1em 0;
+  margin: 0em 0 1em;
 }
 
 .menu__link {
@@ -519,7 +519,8 @@ position:absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 3px;
+  height: 5px;
+  border-radius: 80px;
   -webkit-transform: scale3d(0, 1, 1);
   transform: scale3d(0, 1, 1);
   -webkit-transform-origin: center left;
@@ -663,7 +664,7 @@ height:30px;
 background-color:white; 
 position:absolute; 
 height:200px; 
-top:1750px;
+top:1950px;
 }
 
 #GetInTouch-Title{
@@ -679,7 +680,7 @@ float:left;
 }
 
 #Row{
-top:2000px; 
+top:2200px; 
 padding-left:300px; 
 float:left;
 }
@@ -1203,7 +1204,7 @@ nav {
  
     background: transparent;
     transition: opacity 1s ease-out;
-    opacity: 1;
+    opacity: 1 !important;
     height: 120px;
     line-height: 20px;
     width: 100%;
@@ -1220,7 +1221,7 @@ z-index:9999;
 }
 
 .scrolled {
-  opacity: 0.97;
+  opacity: 0.97 !important;
   height: 110px;
   line-height: 10px;
 }
@@ -1402,3 +1403,104 @@ z-index:9999;
   transform: translate3d(-66.6%, 0, 0);
 }
 
+
+
+/* =Template
+-------------------------------------------------------------- */
+#wrapper {
+  width: 100%;
+  margin: 0 auto; }
+
+#main {
+  background-color: #fff;
+  padding-top: 150px; }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 30px; }
+
+section {
+  padding: 60px 0; }
+  section h1 {
+    font-weight: 700;
+    margin-bottom: 10px; }
+  section p {
+    margin-bottom: 30px; }
+    section p:last-child {
+      margin-bottom: 0; }
+  section.color {
+    background-color: #3cb5f9;
+    color: white; }
+
+/* =Info Bar
+-------------------------------------------------------------- */
+#info-bar {
+  background-color: #3cb5f9; }
+  #info-bar a {
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0;
+    padding: 10px; }
+    #info-bar a:hover {
+      background-color: #0793e2; }
+  #info-bar span.all-tutorials,
+  #info-bar span.back-to-tutorial {
+    display: block;
+    width: 50%; }
+  #info-bar span.all-tutorials {
+    float: left;
+    text-align: left; }
+  #info-bar span.back-to-tutorial {
+    float: right;
+    text-align: right; }
+
+/* =Header
+-------------------------------------------------------------- */
+header {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: transparent;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  -ms-transition: height 0.3s;
+  -o-transition: height 0.3s;
+  transition: height 0.3s; }
+
+  header.smaller {
+    height: 75px;
+    z-index: 10000; }
+    header.smaller #LogoImage {
+      width: 150px;
+      height: 80px !important;
+      position: absolute;
+      padding-bottom: 20px;
+      line-height: 75px;
+      font-size: 30px; 
+      z-index: 10000;}
+    header.smaller #navbar{
+      font-size:18px;
+      top: -20px; }
+
+/* =Footer
+-------------------------------------------------------------- */
+/* =Extras
+-------------------------------------------------------------- */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0; }
+
+
+#Cocrear:hover{
+background: url("Bitmap.png"); 
+}
