@@ -679,7 +679,7 @@ display:inline-block;
 float:left;
 }
 
-#Row{
+#Row1{
 top:2200px; 
 padding-left:300px; 
 float:left;
@@ -707,30 +707,36 @@ position: absolute;
 }
 
 #Name{
-float: left;
+    float: left;
+    top: 120px;
+
 }
 
 #Email{
-float: right;
+    float: right;
+    top: -19px;
+    left: 105px;
 }
 
 #Compania{
 
-margin-top: 10px;
+    margin-top: -67px;
+
 }
 
 
 #Pais{
-color:white; 
-background-color:#00557d; 
-border:0px;
-width: 272px;
-height: 52px;
-border-radius: 3px; 
-float:right; 
-position: relative; 
-margin-bottom: 10px;
-top: -82px;
+    color: white;
+    background-color: #00557d;
+    border: 0px;
+    width: 248px;
+    height: 51px;
+    border-radius: 3px;
+    float: right;
+    position: relative;
+    margin-bottom: 10px;
+    top: -96px;
+    right: -89px;
 }
 
 
@@ -1227,13 +1233,13 @@ z-index:9999;
 }
 
 #pruebaboton-1{
-  padding-left: 50%;
-}
+top:30px;}
 
 #pruebaboton-3{
   padding-right: 30%;
   z-index: 1;
   position: absolute;
+
 
 }
 
@@ -1316,7 +1322,8 @@ z-index:9999;
 
 .input__field--kozakura {
   padding: 0.25em 0.5em;
-  margin-top: 1.25em;
+  margin-right: -1em;
+  margin-top: 1em;
   width: 100%;
   background: transparent;
   color: #2F3238;
