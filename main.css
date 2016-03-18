@@ -1,4 +1,5 @@
-/*Nuevo Codigo*/
+/* =IDBCSite CSS Stylesheet
+-------------------------------------------------------------- */
 
 * {
   padding: 0;
@@ -9,19 +10,11 @@ ul{
   list-style-type: none; 
 }
 
-head, body{
+head, body, h1, p{
 font-family: "Avenir", sans serif;
 }
- 
-h1{
-    font-family: "Avenir", sans serif;
-    color:#00557d;   
-}
 
 
-p{
-  font-family: "Avenir", sans serif;
-}
 @font-face {
     font-family: Avenir;
     src: url("AvenirNext.otf");
@@ -39,22 +32,9 @@ p{
 
 body, head{width:100%;}
 
-#Logo{
-width:100%;
-}
 
-#LogoImage{
-padding-left: 150px;
-height: 120px !important;
-width: 200px;
-}
-
-#LogoImage2{
-padding-left: 150px;
-height: 120px !important;
-width: 200px;
-}
-
+/* =Header Video
+-------------------------------------------------------------- */
 
 .homepage-hero-module {
     border-right: none;
@@ -100,206 +80,19 @@ width: 200px;
 }
 
 
-
-
-#header{
- float:left;
-
-}
-
-
-
-/*Viejo Codigo*/
-
-#title{
-font-family: "Futura", sans serif;
-position:absolute;
-color:black;
-left:600px;
-top:200px;
-}
-
-#ClubMercado-Image
-{
-top:130px; 
-padding-left:0px; 
-position:absolute;
-}
-
-#ClubMercadoButton{
-top:360px; 
-padding-left:-30px; 
-position:absolute;
-}
-
-#InTraffic-Image{
-top:130px; 
-padding-left:-30px; 
-position:absolute;  
-}
-
-#InTraffic-Button{
-top:360px; 
-padding-left:-30px; 
-position:absolute;  
-}
-
-#Advantel-Image{
-top:130px; 
-padding-left:-30px; 
-position:absolute; 
-}
-
-#Logo{
-width:100%;
-}
-
-#Advantel-Button{
-top:360px; 
-padding-left:-30px; 
-position:absolute;
-}
+/* =Header 
+-------------------------------------------------------------- */
 
 #LogoImage{
 padding-left: 150px;
-height: 120px !important;
-width: 200px;
-}
-
-
-
-#LatestProjects{
-width: 100%;
-background: url("Header.png"); 
-height:516px;
-display:block;
-position: absolute;
-}
-
-#LatestProjects-Title{
-font-size:40px;
-color:#00557d; 
-position:absolute; 
-top:30px; 
-padding-left:480px; 
-font-family:Futura; 
-font-weight:Medium; 
-}
-
-
-#Discovery{
-width: 100%;
-background: url("Header.png"); 
-height:816px;
-display:block;
-position: absolute;
-}
-
-#thread-01{
-background-color:#669bb9; 
-width:185px;  
-}
-
-#thread-02{
-font-family: "Helvetica", sans serif;
-font-size:22px;
-color:white; 
-line-height: 1.1;
-text-align:left; 
-width:595px;
-}
-
-#Method{
-top:130px; 
-padding-left:100px; 
-position:absolute;
-}
-
-#thread-03{
-background-color:#669bb9; 
-width:48.5%;
-}
-
-#thread-04{
-background-color:#669bb9; 
-width:51.5%; 
-}
-
-#thread-06{
-background-color:#669bb9; 
-width:10%; 
-}
-
-
-#image-01, #image-02, #image-03{
-top: -35px;
-padding-left: 10px; 
-position:absolute;
-}
-
-#image-04, #image-05, #image-06{
-top: -35px;
-padding-left: 10px; 
-position:absolute;
-}
-
-#Subtitle{
-font-family: "Futura", sans serif;
-font-size:25,83px;
-}
-
-#What-We-Offer{
-background-color:#00557d;
-width:100%; 
-height:1700px;
+height: 110px !important;
+width: 350px!important;
 }
 
 #Line-02{
 top:170px;
 left:870px; 
 position:absolute;
-}
-
-#Paragraph-03{
-font-family: "Helvetica", sans serif;
-left:210px; 
-top:250px; 
-position:absolute; 
-color:white;
-}
-
-#We-Help-With{
-font-size:40px;
-color:#669bb9; 
-position:absolute; 
-top:425px; 
-padding-left:200px; 
-font-family:Futura; 
-font-weight:Medium;
-}
-
-#Title-WhatWeOffer{
-font-family: "Futura", sans serif;
-font-size:40px;
-color:white; 
-position:absolute; 
-top:603px; 
-padding-left:503px; 
-font-family:Futura; 
-font-weight:Medium;
-}
-
-#Span-WhatWeOffer{
-font-family: "Futura", sans serif;
-color:#669bb9; 
-font-size:60px;
-}
-
-#Line-01{
-top:670px; 
-position:absolute; 
-height:"22px"; 
-width:"570px";
 }
 
 #WhoWeAre{
@@ -322,78 +115,10 @@ font-weight:Medium;
 }
 
 #WhoWeAre-Paragraph01{
-color:white; 
-position:absolute; 
-top:130px; 
-padding-left:80px; 
-width:20%;
-}
-
-#WhoWeAre-Paragraph02{
-top:240px; 
+top:350px; 
 padding-left:290px; 
 position:absolute;
 }
-
-#WhoWeAre-Image01{
-top:60px; 
-padding-left:580px; 
-float:right; 
-position:absolute;
-}
-
-#WorkWithUs{
-  width: 100%;
-  background-color: #00557D;
-  height:516px;
-  display:block;
-  position: absolute;
-  top:350px; 
-  height:940px; 
-  color:white;
-}
-
-#Startups{
-     width: 100%;
-     background: url("startups.png"); 
-     height:810px;
-     display:block;
-     position: absolute;
-     top:2210px;
-}
-
-#Start{
-color:#FFFFFF; 
-font-size:40px;
-}
-
-#Help{
-position:absolute;
-left:-20px;
-}
-
-#We-Work-With{
-font-size:40px;color:#669bb9;
-position:absolute; 
-top:125px; 
-padding-left:200px; 
-font-family:Futura; 
-font-weight:Medium;
-}
-
-#Desktop{
-     max-width: 10%;
-     position:absolute;
-     height: auto;
-     top:140px;
-}
-
-#icons-01{
-top:600px; 
-padding-left:0px; 
-position:absolute;
-}
-
 
 #Paragraph-01{
     width: 80%;
@@ -406,23 +131,11 @@ position:absolute;
     left:175px;
     top:360px;
     color: white;
-
-}
-
-#Paragraph2{
-    width: 30%;
-    position:absolute;
-    font-family: "Helvetica", sans serif;
-    font-weight: light;
-    font-size:20px;
-    float: left;
-    left:600px;
-    top:260px;
-    color: #878687;
 }
 
 
-/* Style for menu */
+/* =Menu
+-------------------------------------------------------------- */
 .menu {
   line-height: 1;
   margin: 0 auto 3em;
@@ -449,7 +162,7 @@ position:absolute;
 }
 
 .menu__link {
-  font-size: 1.05em;
+
   font-weight: bold;
   display: block;
   padding: 1em;
@@ -472,7 +185,7 @@ position:absolute;
 /* Shylock */
 .menu--shylock .menu__link {
   position: relative;
-  font-size:22px;
+  font-size:18px;
   margin: 0 1em;
   padding-right: 0;
   padding-left: 0;
@@ -552,138 +265,6 @@ li a {
     text-decoration: none;
 }
 
-#table-01{
- top:720px;
- width: 100%;
- position:absolute; 
- color:white;
-}
-
-#table-02{
- top:1100px;
- width: 100%;
- position:absolute; 
- color:white;
-}
-
-#table-03{
-top:960px;
-width: 100%;
-position:absolute; 
-color:white;
-}
-
-#table-04{
- top:850px;
- width: 100%;
- position:absolute; 
- color:white; 
- left:-80px;
-}
-
-#table-05{
- top:950px;
- width: 100%;
- position:absolute; 
- color:white; 
- left:-40px;
-}
-
-#Development-Image{
-top:830px; 
-padding-left:-20px; 
-position:absolute;
-}
-
-#Development-Paragraph{
-top:1000px; 
-margin-left:-20px; 
-position:relative;
-}
-
-#Strategy-Image{
-top:830px; 
-padding-left:20px; 
-position:absolute; 
-}
-
-#Strategy-Paragraph{
-top:1000px; 
-position:relative;
-}
-
-#Visuals-Image{
-top:830px; 
-padding-left:40px; 
-position:absolute;
-}
-
-#Visuals-Paragraph{
-top:1000px; 
-position:relative;
-}
-
-#WorkWithUs-Title{
-top:2000px; 
-font-size:40px;
-color:white; 
-position:absolute; 
-padding-left:500px; 
-font-family:Futura; 
-font-weight:Medium;
-}
-
-#WorkWithUs-Paragraph01{
-position:absolute; 
-padding-left:300px; 
-top:2100px; 
-color:white; 
-width:50%; 
-text-align:center;
-}
-
-#WorkWithUs-Paragraph02{
-position:absolute; 
-padding-left:300px; 
-top:2220px; 
-color:white; 
-width:50%; 
-text-align:center;
-}
-
-#Aplica{
-position:absolute; 
-padding-left:590px; 
-top:2300px; 
-color:white; 
-text-align:center; 
-height:30px;
-}
-
-#GetInTouch{
-background-color:white; 
-position:absolute; 
-height:200px; 
-top:1950px;
-}
-
-#GetInTouch-Title{
-top:10px; 
-font-size:40px;
-color:#00557d; 
-position:absolute; 
-padding-left:500px; 
-font-family:Futura; 
-font-weight:Medium; 
-display:inline-block; 
-float:left;
-}
-
-#Row1{
-top:2200px; 
-padding-left:300px; 
-float:left;
-}
 
 #Footer{
 background-color:#404040; 
@@ -693,6 +274,23 @@ top:2600px;
 position:absolute;
 }
 
+
+#GetInTouch{
+background-color:white; 
+position:absolute; 
+height:200px; 
+top:1950px;
+}
+
+/* =Form
+-------------------------------------------------------------- */
+
+
+#Row1{
+top:2200px; 
+padding-left:300px; 
+float:left;
+}
 
 #Message
 {
@@ -719,9 +317,13 @@ position: absolute;
 }
 
 #Compania{
+<<<<<<< Updated upstream
 
     margin-top: -67px;
 
+=======
+margin-top: 10px;
+>>>>>>> Stashed changes
 }
 
 
@@ -738,54 +340,6 @@ position: absolute;
     top: -96px;
     right: -89px;
 }
-
-
-#table-10{
-top:1200px;
-width: 100%;
-position:absolute; 
-color:white;
-}
-
-#table-06{
- top:1350px;
- width: 100%;
- position:absolute; 
- color:white;
-}
-
-#table-07{
- top:1500px;
- width: 100%;
- position:absolute; 
- color:white;
-}
-
-#table-x{
- top:10px;
- width: 100%;
- position:absolute; 
- color:white;
-}
-
-col-01{
-    width:100px;
-    top:720px;
-}
-
-td{
-        padding-right: 5px;
-}
-
-table, th, td {
-    border: 0px solid black;
-}
-
-th{
-font-family: "Futura";
-padding-left: 3%
-}
-/* Form */
 
   form label {
     display: block;
@@ -857,153 +411,6 @@ padding-left: 3%
     text-align: center;
 }
 
-
-
-/* Box */
-
-  .box {
-    position: relative;
-    margin-top: 9em;
-    margin-bottom: 0;
-  }
-
-    .box:after {
-      content: '';
-      display: block;
-      position: absolute;
-      top: -9em;
-      left: 50%;
-      height: 9em;
-      border-left: solid 1px #fff;
-    }
-
-    .box:before {
-      content: '';
-      display: block;
-      width: 90px;
-      height: 66px;
-      position: absolute;
-      left: 50%;
-      top: -4.5em;
-      margin-left: -45px;
-      margin-top: -33px;
-      background: url("images/arrow.svg") no-repeat;
-    }
-
-    .box :last-child {
-      margin-bottom: 0;
-    }
-
-    .box.style1 {
-      background: #fff;
-      padding: 3em;
-    }
-
-      .box.style1 .image {
-        display: block;
-        position: absolute;
-        top: 0;
-        width: 50%;
-        height: 100%;
-        background: #152E33;
-        overflow: hidden;
-      }
-
-        .box.style1 .image img {
-          position: absolute;
-          top: 0;
-          height: 100%;
-          width: auto;
-        }
-
-      .box.style1 .inner > :last-child {
-        margin: 0;
-      }
-
-      .box.style1.right .image {
-        left: 0;
-      }
-
-        .box.style1.right .image img {
-          right: 0;
-        }
-
-      .box.style1.right .inner {
-        margin-left: 50%;
-        padding-left: 3em;
-      }
-
-      .box.style1.left .image {
-        right: 0;
-      }
-
-        .box.style1.left .image img {
-          left: 0;
-        }
-
-      .box.style1.left .inner {
-        margin-right: 50%;
-        padding-right: 3em;
-      }
-
-    .box.style2 {
-      text-align: center;
-    }
-
-      .box.style2 header {
-        display: inline-block;
-        background: #fff;
-        padding: 2em 3em 2em 3em;
-        margin: 0;
-      }
-
-        .box.style2 header p {
-          padding: 0;
-        }
-
-      .box.style2 .inner {
-        position: relative;
-        padding: 40px 0 0px 0;
-      }
-
-        .box.style2 .inner:after {
-          content: '';
-          display: block;
-          position: absolute;
-          top: 0;
-          left: 50%;
-          height: 100%;
-          border-left: solid 1px #fff;
-        }
-
-        .box.style2 .inner .row {
-          position: relative;
-        }
-
-          .box.style2 .inner .row:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 50%;
-            left: 20px;
-            width: calc(100% - 40px);
-            border-bottom: solid 1px #fff;
-          }
-
-        .box.style2 .inner .image {
-          position: relative;
-          z-index: 1;
-          padding: 20px;
-        }
-
-    .box.style3 {
-      background: #fff;
-      padding: 3em;
-    }
-
-      .box.style3 header {
-        text-align: center;
-      }
 
 /* Button */
 
@@ -1079,6 +486,7 @@ padding-left: 3%
         background: rgba(58, 57, 57, 0.025);
       }
 
+<<<<<<< Updated upstream
 /* End of Button */
 
 /* Words Change - Header */
@@ -1243,6 +651,8 @@ top:30px;}
 
 }
 
+=======
+>>>>>>> Stashed changes
 
 .input {
   position: relative;
@@ -1265,7 +675,7 @@ top:30px;}
   background: #f0f0f0;
   color: #aaa;
   font-weight: 400;
-  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Avenir";
   -webkit-appearance: none; /* for box shadows to show on iOS */
 }
 
@@ -1311,7 +721,6 @@ top:30px;}
 }
 
 /* Individual styles */
-
 
 
 /* Kozakura */
@@ -1411,58 +820,172 @@ top:30px;}
 }
 
 
-
-/* =Template
+/* =Words Changing Effect
 -------------------------------------------------------------- */
-#wrapper {
-  width: 100%;
-  margin: 0 auto; }
 
-#main {
-  background-color: #fff;
-  padding-top: 150px; }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 0 30px; }
+#WordsChange
+{
+/*color: #00557d; */
+color:white;
+position:absolute;
+font-family:AvenirBold;
+font-size:42px;
+top: 53%;
+left: 41%;
+z-index:1000000; 
+}
+  .rw-sentence span{
+  color: #fff;
+  font-size: 100%;
+  font-weight: normal;
+}
 
-section {
-  padding: 60px 0; }
-  section h1 {
-    font-weight: 700;
-    margin-bottom: 10px; }
-  section p {
-    margin-bottom: 30px; }
-    section p:last-child {
-      margin-bottom: 0; }
-  section.color {
-    background-color: #3cb5f9;
-    color: white; }
+.rw-words-1 span{
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  color: #669bb9;
+  -webkit-animation: rotateWord 18s linear infinite 0s;
+  -ms-animation: rotateWord 18s linear infinite 0s;
+  animation: rotateWord 18s linear infinite 0s;
+}
+.rw-words-1 span:nth-child(2) { 
+    -webkit-animation-delay: 3s; 
+  -ms-animation-delay: 3s; 
+  animation-delay: 3s; 
+  color: #669bb9;
+}
+.rw-words-1 span:nth-child(3) { 
+    -webkit-animation-delay: 6s; 
+  -ms-animation-delay: 6s; 
+  animation-delay: 6s; 
+  color: #669bb9; 
+}
 
-/* =Info Bar
+.rw-words-1 span:nth-child(4) { 
+    -webkit-animation-delay: 9s; 
+  -ms-animation-delay: 9s; 
+  animation-delay: 9s; 
+  color: #669bb9; 
+}
+
+.rw-words-1 span:nth-child(5) { 
+    -webkit-animation-delay: 12s; 
+  -ms-animation-delay: 12s; 
+  animation-delay: 12s; 
+  color: #669bb9; 
+}
+
+.rw-words-1 span:nth-child(6) { 
+    -webkit-animation-delay: 15s; 
+  -ms-animation-delay: 15s; 
+  animation-delay: 15s; 
+  color: #669bb9; 
+}
+
+
+@-webkit-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); }
+  5% { opacity: 1; -webkit-transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); }
+  20% { opacity: 0; -webkit-transform: translateY(30px); }
+  80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -ms-transform: translateY(-30px); }
+  5% { opacity: 1; -ms-transform: translateY(0px);}
+    17% { opacity: 1; -ms-transform: translateY(0px); }
+  20% { opacity: 0; -ms-transform: translateY(30px); }
+  80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
+  5% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
+  20% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
+  80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+
+/* = Who we are - Parallax Effect
 -------------------------------------------------------------- */
-#info-bar {
-  background-color: #3cb5f9; }
-  #info-bar a {
-    color: black;
-    font-size: 14px;
-    text-transform: uppercase;
-    display: inline-block;
-    margin: 0;
-    padding: 10px; }
-    #info-bar a:hover {
-      background-color: #0793e2; }
-  #info-bar span.all-tutorials,
-  #info-bar span.back-to-tutorial {
-    display: block;
-    width: 50%; }
-  #info-bar span.all-tutorials {
-    float: left;
-    text-align: left; }
-  #info-bar span.back-to-tutorial {
-    float: right;
-    text-align: right; }
+
+/* Start of Who we are Parallax */
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("2.jpg");
+}
+
+/* End of Who we are Parallax */
+
+/*What We Offer Icons On Click Effect*/
+
+
+
+/*End of What We Offer Icons On Click Effect*/
+
+/*Responsive Design*/
+
+@media screen and (min-width: 600px) 
+{  /*Desktop Style*/
+ 
+}
+
+
+/* =Navigation Menu
+-------------------------------------------------------------- */
+
+
+nav {
+ 
+    background: transparent;
+    transition: opacity 1s ease-out;
+    opacity: 1 !important;
+    height: 120px;
+    line-height: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+}
+
+.scrolled {
+  opacity: 0.97 !important;
+  height: 110px;
+  line-height: 10px;
+}
+
+
+/* =Header Arrow pointing to what we offer
+-------------------------------------------------------------- */
+
+#pruebaboton-1{
+  padding-left: 50%;
+}
+
+#pruebaboton-3{
+  padding-right: 30%;
+  z-index: 1;
+  position: absolute;
+
+}
 
 /* =Header
 -------------------------------------------------------------- */
@@ -1485,8 +1008,8 @@ header {
     height: 75px;
     z-index: 10000; }
     header.smaller #LogoImage {
-      width: 150px;
-      height: 80px !important;
+      width: 20% !important;
+      height: 70% !important;
       position: absolute;
       padding-bottom: 20px;
       line-height: 75px;
@@ -1496,16 +1019,20 @@ header {
       font-size:18px;
       top: -20px; }
 
-/* =Footer
--------------------------------------------------------------- */
-/* =Extras
--------------------------------------------------------------- */
-.clearfix:after {
+#wrapper {
+  width: 100%;
+  margin: 0 auto; }
+
+  .clearfix:after {
   visibility: hidden;
   display: block;
   content: "";
   clear: both;
   height: 0; }
+
+
+/* =Other Effects
+-------------------------------------------------------------- */
 
 
 #Cocrear:hover{

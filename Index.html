@@ -2,12 +2,6 @@
  "http://www.w3.org/TR/html4/strict.dtd">
 <html>   <!--            Start of HTML code-->
 
-<!--[if lt IE 9]>
-<script>
-  document.createElement('video');
-</script>
-<![endif]-->
-
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -16,44 +10,26 @@
 
 
   <!--Stylesheets-->
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="Main.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
   <!--Scripts-->
    <script src="jquery-1.12.0.min.js"></script>
-    <script src="ScrollingEffect.js"></script>
-    <script src="animatescroll.js"></script>
-    <script src="VideoCode.js"></script>
-    <link rel="stylesheet" href="css/style.css" />
-    
-<!-- js -->
-<script src="js/classie.js"></script>
-<script>
-    function init() {
-        window.addEventListener('scroll', function(e){
-            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                shrinkOn = 300,
-                header = document.querySelector("header");
-            if (distanceY > shrinkOn) {
-                classie.add(header,"smaller");
-            } else {
-                if (classie.has(header,"smaller")) {
-                    classie.remove(header,"smaller");
-                }
-            }
-        });
-    }
-    window.onload = init();
-</script>
-
-  
+   <script src="ScrollingEffect.js"></script>
+   <script src="animatescroll.js"></script>
+   <script src="VideoCode.js"></script>
+   <script src="Methodology.js"></script>
+   <script src="js/classie.js"></script>
+   <script src="ShrinkingEffect.js"></script>   
+   <script src="CocreatingEffect.js"></script> 
+   <script src="js/bootstrap.min.js"></script>
 
 </head>
 
 
+<body>    <!--Start of body-->
 
-<body>     <!--Start of body-->
-
-  <!--Header: Logo and Navigation Bar-->
+<!--Video-->
 
 
 <div class="homepage-hero-module">
@@ -65,48 +41,52 @@
         </video>
     </div>
    
+<<<<<<< Updated upstream
     
 </div>
+=======
+    <!--Arrow-->
+>>>>>>> Stashed changes
 
+    <a class="salida" id="pruebaboton-1" style="padding-left:45%;">
+      <img src="arrow.png" style="width:10%; height:15%; "></img></a>
+</div> <!--End Video section-->
 
 
 <div id="wrapper">
-
-<div id="header">
+  <div id="header">
  
 
-<header> 
+  <header> 
 
     <div class="container clearfix">
-    <!--Navigation Bar Fixed-->
+  
+    <!--Navigation Bar-->
 
-
-
-    <!--Navigation Bar scrolled-->
-
-         <nav class="menu--shylock">
+      <nav class="menu--shylock">
 
         
-          <div style="padding-left:92%; padding-top:5.5%; position:absolute;"><p style="font-size:20px;color:white;">EN/<strong>ES</strong></p></div>
+          <div style="padding-left:92%; padding-top:5.5%; position:absolute;">
+            <p style="font-size:20px;color:white;">EN/<strong>ES</strong></p>
+          </div>
           
-                   <img id="LogoImage" style="" src="Logo.png" alt="Logo"></img>
+            <img id="LogoImage" style="" src="Logo.png" alt="Logo"></img>
           
-          <ul class="menu__list" id="navbar" style="position:absolute; padding-top:2%; float:right; padding-left:35%;">
+            <ul class="menu__list" id="navbar" style="position:absolute; padding-top:2%; float:right; padding-left:35%;">
 
 
-            <li class="menu__item menu__item--current"><a href="#" class="menu__link">Inicio</a></li>
-            <li class="menu__item"><a  href="#" class="menu__link">Servicios</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Metodología</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Clientes</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Nosotros</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Contacto</a></li>
-          </ul>
+             <li class="menu__item menu__item--current"><a href="#" class="menu__link">Inicio</a></li>
+             <li class="menu__item"><a  href="#" class="menu__link">Servicios</a></li>
+             <li class="menu__item"><a href="#" class="menu__link">Metodología</a></li>
+             <li class="menu__item"><a href="#" class="menu__link">Clientes</a></li>
+             <li class="menu__item"><a href="#" class="menu__link">Nosotros</a></li>
+             <li class="menu__item"><a href="#" class="menu__link">Contacto</a></li>
+            </ul>
           
 
- </nav>
-
-     </div>
-</header><!-- /header -->
+     </nav>
+   </div>
+  </header><!-- /header -->
 
 
 </div>
@@ -212,45 +192,63 @@
 
 
 
-<div  style="background:#84b73f; width:100%; position:absolute; top:1670px; height:590px;">
+<div  style="background:#84b73f; width:100%; position:absolute; top:1670px; height:590px;display:inline-block;">
 
 
 <div style="font-size:50px; color:white; padding-left:39%; margin-top:7%; position:relative;">Metodología</div>
 
-<p style="color:white; width:40%; font-family:Avenir; font-size:22px;padding-left:32%;text-align:justify; position:relative;top:0%;">Eficiencia encofada en las <strong>necesidades </strong>del cliente</p>
+<p style="color:white; width:100%; font-family:Avenir; font-size:22px;padding-left:32%;text-align:justify; position:relative;top:0%;">Eficiencia encofada en las <strong>necesidades </strong>del cliente</p>
 <br>
 
-<div  style="padding-left:15%; position:relative; margin-top:2%;"><img id="Rocket" style="height:60px;" src="Method_Menu.png" alt="Method"></img></div>
+
+
+<div style="display:inline-block;">
+<span id="pop-up" style="position: absolute; display:none; width:100%; padding-left:15%; padding-top:5%;"><img src="Rectangle.png"/></span>
+<div id="image" style="width:208px; height:318px; margin-left: 150px;"><a href="#"><img src="Discovery.png"border="none"/></a></div>
+
+<span id="pop-up" style="position: absolute; display:none; width:100%; padding-left:55%; padding-top:5%;"><img src="Rectangle.png"/></span>
+<div id="image2" style="position:relative;width:208px; height:318px; margin-left:147%; top:-316px;"><a href="#"><img src="Visuals.png"border="none"/></a></div>
+
+<span id="pop-up" style="position: absolute; display:none; width:100%; padding-left:55%; padding-top:5%;"><img src="Rectangle.png"/></span>
+<div id="image3" style="position:relative;width:208px; height:318px; margin-left:95%; top:-638px;"><a href="#"><img src="Discovery.png"border="none"/></a></div>
+
+<span id="pop-up" style="position: absolute; display:none; width:100%; padding-left:75%; padding-top:5%;"><img src="Rectangle.png"/></span>
+<div id="image4" style="position:relative;width:208px; height:318px; margin-left:199%; top:-958px;"><a href="#"><img src="Discovery.png"border="none"/></a></div>
+
+<span id="pop-up" style="position: absolute; display:none; width:100%; padding-left:95%; padding-top:5%;"><img src="Rectangle.png"/></span>
+<div id="image5" style="position:relative;width:208px; height:318px; margin-left:250%; top:-1270px;"><a href="#"><img src="Discovery.png"border="none"/></a></div>
+
+<span id="pop-up" style="position: absolute; display:none; width:100%; padding-left:98%; padding-top:5%;"><img src="Rectangle.png"/></span>
+<div id="image6" style="position:relative;width:208px; height:318px; margin-left:280%; top:-1590px;"><a href="#"><img src="Discovery.png"border="none"/></a></div>
 
 </div>
 
 
-
-<div  style="background-image:url(Startups.png); width:100%; position:absolute; top:2250px; height:950px;">
+<div  style="background-image:url(Startups.png); width:100%; position:absolute; top:550px; height:950px;">
 
 <div  style="padding-left:46%; position:relative; margin-top:22%;"><img id="Rocket" style="height:120px;" src="Rocket.png" alt="Rocket"></img></div>
 
 <div style="font-size:50px; color:white; padding-left:28%; margin-top:1%; position:relative;">Trabajamos con <strong>STARTUPS </strong></div>
 
-<p style="color:white; width:70%; font-family:Avenir; font-size:22px;padding-left:15%;text-align:justify; position:relative;top:1%;">Somos amantes de las buenas ideas y podemos ayudarte con la tuya, en equipo podemos hacer un producto exitoso ya que ayudas a <span id="Cocrear"><strong>CO-CREAR</strong></span> startups de alta calidad que se transforman en grandes companias y con amplios reconocimientos. Cambiamos el rol del emprendedor, para que pueda encargarse de hacer crecersu negocio en linea mientras nosotros le ayudamos con la estrategia, planificacion y ejecucion de la idea. </p>
+<p style="color:white; width:80%; font-family:Avenir; font-size:22px;padding-left:20%;text-align:justify; position:relative;top:1%;">Somos amantes de las buenas ideas y podemos ayudarte con la tuya, en equipo podemos hacer un producto exitoso ya que ayudas a <span id="Cocrear"><strong>CO-CREAR</strong></span> startups de alta calidad que se transforman en grandes companias y con amplios reconocimientos. Cambiamos el rol del emprendedor, para que pueda encargarse de hacer crecersu negocio en linea mientras nosotros le ayudamos con la estrategia, planificacion y ejecucion de la idea. </p>
 <br>
 
 
 </div>
 
 
-
-
-<div id="WhoWeAre" style="height:1000px; top:3090px;"> <!--Start of Who We Are Section-->
-    <h1 id="WhoWeAre-Title" style="padding-left:36.5%; top:15%;">Nuestro Equipo</h1>
+<div id="WhoWeAre" style="height:1000px; top:1500px;"> <!--Start of Who We Are Section-->
+    <h1 id="WhoWeAre-Title" style="padding-left:38%; top:5%;">Nuestro Equipo</h1>
   
-   
-      
-     
-      
-      <div id="WhoWeAre-Paragraph02">
-      <p style="color:white; width:80%; font-family:Avenir; font-size:28px;padding-left:12%;text-align:center; position:relative;">Con una amplia cartera de clientes desde<br> <strong>Particulares / Corporativos / Emprendedores</strong></p>
-       <p style="color:white; width:85%; font-family:Avenir; font-size:28px;padding-left:10.2%;text-align:center; position:relative;">Nuestra meta es abarcar los diversos mercados <br>existentes y lograr diversidad de soluciones tecnologicas </p>
+    <div  style="padding-left:27%; padding-top:10%;  position:absolute;"><img id="Desarrollo" style="height:80px;" src="desarrollo.png" alt="Desarrollo"></img></div>
+    
+    <div  style="padding-left:47%; padding-top:10%;  position:absolute;"><img id="Estrategia" style="height:80px;" src="estrategia.png" alt="Estrategia"></img></div>
+
+    <div  style="padding-left:67%; padding-top:10%;  position:absolute;"><img id="Visuales" style="height:45px;" src="visuales.png" alt="Visuales"></img></div>
+
+      <div id="WhoWeAre-Paragraph01">
+      <p style="color:white; width:100%; font-family:Avenir; font-size:24px;padding-left:20%;text-align:center; position:relative;">Con una amplia cartera de clientes desde<br> <strong>Particulares / Corporativos / Emprendedores</strong></p>
+       <p style="color:white; width:100%; font-family:Avenir; font-size:24px;padding-left:20%;text-align:center; position:relative;">Nuestra meta es abarcar los diversos mercados <br>existentes y lograr diversidad de soluciones tecnologicas </p>
      
 
 </div> <!--End of Who We Are Section-->
@@ -266,7 +264,7 @@
 
 
 
-<div style="background-color:#0b617d; width:100%; position:absolute; top:700px; height:580px;">
+<div style="background-color:#0b617d; width:100%; position:absolute; top:600px; height:580px;">
 
 <div style="font-size:50px; color:#ffffff; padding-left:35%; margin-top:8%; position:relative;"><strong>Nuestros </strong>clientes</div>
 
@@ -283,23 +281,20 @@
 
 
 
-<div style="background:#be641e; width:100%; position:absolute; top:1280px; height:680px; z-index:1;">
+<div style="background:#be641e; width:100%; position:absolute; top:1180px; height:680px; z-index:1;">
 
-      <img id="Image001" style="float:left; position:absolute; padding-left:47%;height:90px; top:120px;" src="Coffee.png" alt="001">
+      <img id="Image001" style="float:left; position:absolute; padding-left:47%;height:70px; top:120px;" src="Coffee.png" alt="001">
 
 <div style="font-size:50px; color:#ffffff; padding-left:33.5%; margin-top:15%; position:relative;">Trabaja <strong>con </strong>nosotros</div>
 <br>
-<p style="color:#f6ebe0; width:80%; font-family:Avenir; font-size:28px;padding-left:10%;text-align:center; position:relative;top:1%;">Obtenemos resultados increíbles, impulsados por nuestra definición de equipos integrados de producto que siguen una vision compartida. </p>
+<p style="color:#f6ebe0; width:80%; font-family:Avenir; font-size:28px;padding-left:20%;text-align:center; position:relative;top:1%;">Obtenemos resultados increíbles, impulsados por nuestra definición de equipos integrados de producto que siguen una vision compartida. </p>
 <br>
-<p style="color:#f6ebe0; width:80%; font-family:Avenir; font-size:28px;padding-left:10%;text-align:center; position:relative;top:1%;">Todos lso dias trabajaras con un eqipo como dinamico; un equipo que confia en nuestra formula de trabajo, y un equipo dispuesto a desafiar y pensar en grande.</p>
+<p style="color:#f6ebe0; width:80%; font-family:Avenir; font-size:28px;padding-left:20%;text-align:center; position:relative;top:1%;">Todos lso dias trabajaras con un eqipo como dinamico; un equipo que confia en nuestra formula de trabajo, y un equipo dispuesto a desafiar y pensar en grande.</p>
 
 <p style="color:white; width:80%; font-family:Avenir; font-size:22px;padding-left:10%;text-align:justify; position:relative;top:1%;"> </p>
 
-<img id="Image001" style="float:left; position:absolute; padding-left:41%;height:90px; top:520px;" src="Aplica.png" alt="001">
+<img id="Image001" style="float:left; position:absolute; padding-left:42%;height:50px; top:600px;" src="Aplica.png" alt="001">
 </div>
-
-
-
 
 
 <div id="GetInTouch"> <!--Start of Get In Touch Section-->
@@ -617,10 +612,10 @@
 
 </div> <!--Wrapper-->
 
- <div id="PreFooter" style="background-image:url(Black.png); top:5600px; position:absolute;;width:100%; height:200px;">     
+ <div id="PreFooter" style="background-image:url(Black.png); top:4200px; position:absolute;;width:100%; height:200px;">     
 
 </div> <!--Footer Section-->
- <div id="Footer" style="background-color:#090909; top:5800px;font-size:22px; color:grey;"><p style="padding-left:37%; padding-top:2.5%;">Todos los derechos reservados ®</p></div> <!--Footer Section-->
+ <div id="Footer" style="background-color:#090909; top:4400px;font-size:22px; color:grey;"><p style="padding-left:37%; padding-top:2.5%;">Todos los derechos reservados ®</p></div> <!--Footer Section-->
 </div>
 </section>
 
