@@ -10,7 +10,7 @@
 $cabeceras = "From: $Email\n" //La persona que envia el correo
  . "Reply-To: $Email\n";
 $asunto = "Message sent from the IDBCGroup Website"; //asunto aparecera en la bandeja del servidor de correo
-$email_to = "vanessapcg@gmail.com"; //cambiar por tu email
+$email_to = "hola@idbcgroup.com"; //cambiar por tu email
 $contenido = "$Name ha enviado un mensaje desde la web de IDBC Group (www.idbcgroup.com)\n"
 . "\n"
 . "Nombre: $Name\n"
