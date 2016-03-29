@@ -10,8 +10,17 @@ ul{
   list-style-type: none; 
 }
 
+a{
+  text-decoration: none;
+  color:white;
+}
+
 head, body, h1, p{
 font-family: "Avenir", sans serif;
+}
+
+strong{
+  font-family: "AvenirBold", sans serif;
 }
  
 
@@ -64,7 +73,7 @@ body, head{width:100%;}
 }
 .video-container .filter {
     position: absolute;
-    height:850px; 
+    height:100%; 
     z-index:1;
     background: rgba(40, 40, 40, 0.7);
     width: 100%;
@@ -99,8 +108,10 @@ position:absolute;
 }
 
 #language{
-font-size:20px;
-color:white;  
+font-size: 20px;
+color: white;
+top: -9px;
+position: relative;
 }
 
 #navbar{
@@ -123,6 +134,13 @@ letter-spacing: 2px;
 font-size:42px; 
 }
 
+#WordsContainer{
+position:absolute; 
+float:right; 
+top:54.8%; 
+left:56%; 
+}
+
 #WhatWeOffer{
 width:100%; 
 background-color:white; 
@@ -130,12 +148,90 @@ z-index:10000;
 top:100px; 
 }
 
+#Business{
+font-size:50px; 
+color:#4b4b4b; 
+padding-left:33%; 
+margin-top:10%;
+}
+
+#Strategy{
+ font-size:32px; 
+ float:right; 
+ margin-top:0; 
+ color:#a0a7ab; 
+}
+
+#FirstSet{
+padding-left:17%; 
+margin-top:5%;
+}
+
+#SecondSet{
+  padding-left:17%; 
+  margin-top:20%;
+}
+
+#SecondIcon{
+  padding-left:25%;
+}
+
+#ThirdIcon{
+  padding-left:50.1%;
+}
+
 #WhatWeOffer-02{
 display:inline-block; 
 padding-left:20%; 
 }
 
-#WhatWeOffer-Title01{
+#Develop{
+  display:inline-block; 
+  padding-left:20%;
+}
+
+#Method{
+  background:#84b73f; 
+  width:100%; 
+  position:absolute; 
+  top:1690px; 
+  height:470px;
+}
+
+#Method-Paragraph{
+  color:white; 
+  width:40%; 
+  font-family:Avenir; 
+  font-size:22px;
+  padding-left:33%;
+  text-align:justify; 
+  position:relative;top:0%;
+}
+
+#Method-Title{
+  font-size:50px; 
+  color:white; 
+  padding-left:40.3%; 
+  margin-top:7%;
+}
+
+#Startups-Title{
+  font-size:50px; 
+  color:white; 
+  padding-left:28%;
+  margin-top:1%; 
+  position:relative;
+}
+
+#Startups{
+  background-image:url(images/Startups.png); 
+  width:100%; 
+  position:absolute; 
+  top:2050px; 
+  height:950px;
+}
+
+#Me-Title01{
 font-size:50px; 
 color:#4b4b4b; 
 padding-left:33%; 
@@ -166,8 +262,8 @@ position:absolute;
   height:516px;
   display:block;
   position: absolute;
+  height:1400px; 
   top:3000px;
-  height:360px;
 }
 
 #WhoWeAre-Title{
@@ -188,6 +284,34 @@ padding-left: 140px;
 width: 60%;
 }
 
+#WhoWeAre-Paragraph{
+  color:white; 
+  width:100%; 
+  font-family:Avenir; 
+  font-size:28px;
+  padding-left:15%;
+  text-align:center; 
+  position:relative;
+}
+
+#WhoWeAre-Paragraph02{
+  color:white; 
+  width:100%; 
+  font-family:Avenir; 
+  font-size:28px;
+  padding-left:16%;
+  text-align:center; 
+  position:relative;
+}
+
+#Method{
+  background:#84b73f; 
+  width:100%; 
+  position:absolute; 
+  top:1600px; 
+  height:470px;
+}
+
 #Paragraph-01{
     width: 80%;
     position:absolute;
@@ -203,6 +327,45 @@ width: 60%;
 
 }
 
+#Method-Image{
+padding-left:15.5%; 
+position:relative; 
+margin-top:2%;
+}
+
+#Development-01{
+  padding-left:22%; 
+  padding-top:16%;  
+  position:absolute;
+}
+
+#Strategy-01{
+  padding-left:47%; 
+  padding-top:16%;  
+  position:absolute;
+}
+
+#Visuals-01{
+  padding-left:70%; 
+  padding-top:18%;  
+  position:absolute;
+}
+
+#Image001{
+  float:left; 
+  position:absolute; 
+  padding-left:48%;
+  height:60px; 
+  top:120px;
+}
+
+#WorkWithUs-Title{
+  font-size:50px; 
+  color:#ffffff; 
+  padding-left:33.5%; 
+  margin-top:15%; 
+  position:relative;
+}
 
 /* = Top Menu
 -------------------------------------------------------------- */
@@ -385,7 +548,7 @@ float:left;
 color:white; 
 background-color:#00557d;
 border: 0px;
-width:600px; 
+width:46%; 
 height:200px; 
 border-radius: 3px;
 margin-top: -19px;
@@ -877,7 +1040,7 @@ nav {
 -------------------------------------------------------------- */
 
 #pruebaboton-1{
- top:720px;
+ top:650px;
  padding-left:47%;
  position:absolute;
  z-index:1;}
@@ -1104,6 +1267,7 @@ header {
   header.smaller {
     height: 75px;
     z-index: 10000; }
+
     header.smaller #LogoImage {
     width: 150px;
     height: 90px !important;
@@ -1113,9 +1277,19 @@ header {
     font-size: 30px;
     z-index: 10000;
     padding-top: 0px;}
+
     header.smaller #navbar{
       font-size:18px;
       top: -30px; }
+
+    header.smaller #language{
+      font-size: 20px;
+      top: -73px;
+      color: #4b4b4b;}
+
+    header.smaller a{
+      text-decoration: none;
+      color:#4b4b4b;}
 
 .clearfix:after {
   visibility: hidden;
@@ -1342,3 +1516,212 @@ header {
 .menu--shylock2 .menu__link2::after {
   background: #b5b5b5;
 }
+
+.menu--shylock2 .menu__list#navbar{
+    position:absolute; 
+    padding-top:10%; 
+    padding-left:27%; 
+    float:left; 
+    color:white;
+}
+
+/*-----Responsive-------*/
+
+
+
+@media (max-width: 1200px) {
+
+video{
+    width: 1200px;
+    top: 0px;
+}
+
+#Paragraph-01 {
+
+    left: 140px;
+}
+
+#Impact{
+padding-left: 0px;
+
+}
+
+#WordsContainer{
+top:54%; 
+left:58%;
+}
+
+
+#navbar {
+    position: absolute;
+    padding-top: 2.6%;
+    float: right;
+    padding-left: 23%;
+}
+
+#Message {
+  width: 48%;
+
+}
+
+#LogoImage {
+    padding-left: 25px;
+    height: 120px !important;
+    width: 210px;
+    padding-top: 24px;
+}
+
+.video-container{
+    height: 52%;
+}
+
+#Business{
+margin-top:-69%;
+padding-left: 30%;
+}
+
+#Strategy{
+ font-size:32px; 
+ float:right; 
+ margin-top:-3%; 
+ color:#a0a7ab; 
+}
+
+#FirstSet{
+padding-left:13%; 
+margin-top:5%;
+}
+
+#SecondSet{
+  padding-left:13%; 
+
+}
+
+#Develop{
+  display:inline-block; 
+  padding-left:15%;
+}
+
+#SecondIcon{
+  padding-left:30%;
+}
+
+#ThirdIcon{
+  padding-left:59%;
+}
+
+#Method{
+  background:#84b73f; 
+  width:100%; 
+  position:absolute; 
+  top:1450px; 
+  height:470px;
+}
+
+#Method-Title{
+padding-left: 37.5%;
+}
+
+#Method-Paragraph{
+  width: 45%;
+  padding-left: 29%;
+}
+
+#Method-Image{
+padding-left:8%; 
+}
+
+#Startups-Title{
+padding-left:24%;
+}
+
+#WhoWeAre-Paragraph02{
+ width: 104%;
+ padding-left: 13%;
+}
+
+#WhoWeAre-Paragraph
+{
+padding-left:15%;
+}
+
+#Development-01{
+  padding-left:23.5%; 
+}
+
+#Strategy-01{
+  padding-left:48.5%; 
+}
+
+#Visuals-01{
+  padding-left:72%; 
+}
+
+#Image001{
+  padding-left: 48.5%;
+}
+
+#WorkWithUs-Title{
+  padding-left: 30.5%;
+}
+
+.menu--shylock2 .menu__list#navbar{
+    padding-top: 12%;
+    padding-left: 23%;
+}
+#pruebaboton-1 {
+    top: 37%;
+}
+
+.video-container {
+    height: 42.2%;
+}
+
+#Startups{
+top:1920px;
+}
+
+#WhoWeAre{
+  top:2870px;
+}
+
+
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 480px) {
+
+#LogoImage {
+    padding-left: 2px;
+    height: 110px !important;
+    width: 200px;
+    padding-top: 24px;
+}
+
+#navbar{
+  padding-left: 18%;
+}
+
+#switch {
+  padding-left: 83%;
+  padding-top: 12%;
+  position: absolute;
+}
+
+#Paragraph-01 {
+ top: 250px;
+}
+
+#Impact {
+ padding-left: 122px;
+
+}
+
+#Method-Image {
+    padding-left: 0%;
+    width:50%;
+}
+

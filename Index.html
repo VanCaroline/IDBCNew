@@ -12,6 +12,7 @@
   <!--Stylesheets-->
   <link rel="stylesheet" href="main.css">
 
+
   <!--Scripts-->
     <script src="scripts/jquery-1.12.0.min.js"></script>
     <script src="scripts/ScrollingEffect.js"></script>
@@ -55,7 +56,7 @@
           
     <!--Language switch-->
         
-          <div id="switch"><p id="language">EN/<strong>ES</strong></p></div>
+          <div id="switch"><p id="language"><a href="http://www.idbcgroup.com/test/en/index.html">EN/</a><strong>ES</strong></p></div>
 
     <!--Logo-->
           
@@ -68,7 +69,6 @@
             <li class="menu__item menu__item--current"><a href="#" class="menu__link">Inicio</a></li>
             <li class="menu__item"><a  href="#WhatWeOffer" class="menu__link">Servicios</a></li>
             <li class="menu__item"><a href="#Method" class="menu__link">Metodología</a></li>
-            <li class="menu__item"><a href="#Startups" class="menu__link">Clientes</a></li>
             <li class="menu__item"><a href="#WhoWeAre" class="menu__link">Nosotros</a></li>
             <li class="menu__item"><a href="#GetInTouch" class="menu__link">Contacto</a></li>
           </ul>
@@ -91,7 +91,7 @@
       <div class=" rw-words-1">      
         <div id="Paragraph-01">
          <p id="Services-Solutions">SERVICIOS Y SOLUCIONES <br>TECNOLÓGIAS <br><p id="Impact">DE ALTO IMPACTO PARA</p> &nbsp;
-                  <div style="position:absolute; float:right; top:54.8%; left:56%;">
+                  <div id="WordsContainer">
                     <span id="WordsChange"> EMPRENDEDORES</span>
                     <span id="WordsChange"> CORPORACIONES</span>
                     <span id="WordsChange"> COMUNIDADES</span>
@@ -114,15 +114,15 @@
 <!--What We Offer Section-->
 
 <div id="WhatWeOffer">
-    <div  style="font-size:50px; color:#4b4b4b; padding-left:33%; margin-top:10%;">Unidades <strong>de </strong>negocio</div>
+    <div id="Business">Unidades <strong>de </strong>negocio</div>
 
 
-    <div style="display:inline-block; padding-left:20%;"><p style="font-size:32px; float:right; margin-top:11.5%; color:#a0a7ab;">desarrollo de tecnologia</p></div>
+    <div id="Develop"><p style="font-size:32px; float:right; margin-top:11.5%; color:#a0a7ab;">desarrollo de tecnología</p></div>
 
 
 <!--First Set of Icons-->
 
-  <div style="padding-left:17%; margin-top:5%;">
+  <div id="FirstSet">
     <div>
       <img id="Image01" style="float:left; height:120px;" src="images/Image01.png" alt="Image01">
       </div>
@@ -138,7 +138,7 @@
     <img id="Line" style="height:420px;" src="images/Line.png" alt="Line">
   </div>
   
-  <div style="padding-left:17%; margin-top:20%;">
+  <div id="SecondSet">
     <div>
     <img id="Image04" style="float:left; height:120px;" src="images/Image04.png" alt="Image04">
     </div>
@@ -151,7 +151,7 @@
   </div>
 
 
-<div style="display:inline-block; padding-left:57%; margin-top:-23.1%; position:absolute;"><p style="font-size:32px; float:right; margin-top:0; color:#a0a7ab;">estrategia de negocios</p></div>
+<div style="display:inline-block; padding-left:57%; margin-top:-23.1%; position:absolute;"><p id="Strategy">estrategia de negocios</p></div>
 
 
 <!--Second Set of Icons-->
@@ -173,10 +173,10 @@
   <div style="padding-left:54.1%; margin-top:20%;">
     <div><img id="Image10" style="float:left; height:120px;" src="images/Image10.png" alt="Image10">
     </div>
-    <div style="padding-left:25%;">
+    <div id="SecondIcon">
     <img id="Image11" style="float:left; height:120px;" src="images/Image11.png" alt="Image11">
     </div>
-    <div style="padding-left:50.1%;">
+    <div id="ThirdIcon">
     <img id="Image12" style="float:left; height:120px;" src="images/Image12.png" alt="Image12"></img>  
     </div>
   </div>
@@ -187,27 +187,27 @@
 
 
 <!--Method Section-->
-<div id="Method" style="background:#84b73f; width:100%; position:absolute; top:1690px; height:470px;">
+<div id="Method">
 
-  <div style="font-size:50px; color:white; padding-left:40.3%; margin-top:7%;">Metodología</div>
+  <div id="Method-Title">Metodología</div>
 
-  <p style="color:white; width:40%; font-family:Avenir; font-size:22px;padding-left:33%;text-align:justify; position:relative;top:0%;">Eficiencia encofada en las <strong>necesidades </strong>del cliente</p>
+  <p id="Method-Paragraph">Eficiencia encofada en las <strong>necesidades </strong>del cliente</p>
   <br>
 
-  <div  style="padding-left:15.5%; position:relative; margin-top:2%;"><img id="Rocket" style="height:60px;" src="images/Method_Menu.png" alt="Method"></img></div>
+  <div  id="Method-Image"><img id="Rocket" style="height:60px;" src="images/Method_Menu.png" alt="Method"></img></div>
 
 </div> 
 <!--End of Method Section-->
 
 <!--Startups Section-->
 
-<div  id="Startups" style="background-image:url(images/Startups.png); width:100%; position:absolute; top:2150px; height:950px;">
+<div  id="Startups">
 
   <div  style="padding-left:46%; position:relative; margin-top:22%;"><img id="Rocket" style="height:120px;" src="images/Rocket.png" alt="Rocket"></img></div>
 
-  <div style="font-size:50px; color:white; padding-left:28%; margin-top:1%; position:relative;">Trabajamos con <strong>STARTUPS </strong></div>
+  <div id="Startups-Title">Trabajamos con <strong>STARTUPS </strong></div>
 
-  <p style="color:#cfcfcf; width:65%; font-family:Avenir; font-size:20px;padding-left:17.5%;text-align:justify; position:relative;top:1%; line-height: 150%">Somos amantes de las buenas ideas y podemos ayudarte con la tuya, en equipo podemos hacer un producto exitoso ya que ayudas a  <strong style="color:White; font-size:23px;"><u>CO-CREAR</u></strong>  startups de alta calidad que se transforman en grandes companias y con amplios reconocimientos. Cambiamos el rol del emprendedor, para que pueda encargarse de hacer crecersu negocio en linea mientras nosotros le ayudamos con la estrategia, planificacion y ejecucion de la idea. </p>
+  <p style="color:#cfcfcf; width:65%; font-family:Avenir; font-size:20px;padding-left:17.5%;text-align:justify; position:relative;top:1%; line-height: 150%">Somos amantes de las buenas ideas y podemos ayudarte con la tuya. En equipo podemos hacer un producto exitoso, ya que ayudamos a  <strong style="color:White; font-size:23px;"><u>CO-CREAR</u></strong>  startups de alta calidad que se transforman en grandes compañías con amplios reconocimientos. Cambiamos el rol del emprendedor  para que pueda encargarse de hacer crecer su negocio en línea mientras nosotros le ayudamos con la estrategia, planificación y ejecución de la idea. </p>
   <br>
 
 </div>
@@ -217,32 +217,32 @@
 
 <!--WhoWeAre Section-->
 
-<div id="WhoWeAre" style="height:1400px; top:3100px;"> 
+<div id="WhoWeAre"> 
     <h1 id="WhoWeAre-Title" style="padding-left:37%; top:6%;">Nuestro Equipo</h1>
   
 
     <!--Development-->
-    <div  style="padding-left:22%; padding-top:16%;  position:absolute;">
+    <div  id="Development-01">
       <img id="Desarrollo" style="height:80px;" src="images/desarrollo.png" alt="Desarrollo"></img></div>
     
-    <div><p style="position:absolute;padding-left:17%; padding-top:23%; color:white; font-size:22px; text-align:center;"><span style="font-size:30px;">Desarrollo<br></span><span>Scrum Master<br>Ingeniero de Software<br>Desarrollador Front-End<br>Experto Movil</p></div>
+    <div><p style="position:absolute;padding-left:17%; padding-top:23%; color:white; font-size:22px; text-align:center;"><span style="font-size:30px;">Desarrollo<br></span><span>Scrum Master<br>Ingeniero de Software<br>Desarrollador Front-End<br>Experto Móvil</p></div>
 
     <!--Strategy-->
     
-    <div  style="padding-left:47%; padding-top:16%;  position:absolute;">
+    <div  id="Strategy-01">
       <img id="Estrategia" style="height:80px;" src="images/estrategia.png" alt="Estrategia"></img></div>
     <div><p style="position:absolute;padding-left:41%; padding-top:23%; color:white; font-size:22px; text-align:center;"><span style="font-size:30px;">Estrategia<br></span>Gerente de Proyecto<br>Estratega de Producto<br>Coordinador de Calidad<br>Tester</p></div>
 
     <!--Visuals-->
 
-    <div  style="padding-left:70%; padding-top:18%;  position:absolute;">
+    <div  id="Visuals-01">
       <img id="Visuales" style="height:45px;" src="images/visuales.png" alt="Visuales"></img></div>
     <div><p style="position:absolute;padding-left:64%; padding-top:23%; color:white; font-size:22px; text-align:center;"><span style="font-size:30px;">Visuales<br></span>Arquitecto Visual<br>Especialista UX<br>Especialista de Mercadeo<br>Desarrollo UI</p></div>
 
     <!--Parragraph-->
     <div id="WhoWeAre-Paragraph01">
-    <p style="color:white; width:100%; font-family:Avenir; font-size:28px;padding-left:15%;text-align:center; position:relative;">Con una amplia cartera de clientes desde<br><strong>Particulares / Corporativos / Emprendedores</strong></p>
-    <p style="color:white; width:100%; font-family:Avenir; font-size:28px;padding-left:16%;text-align:center; position:relative;">Nuestra meta es abarcar los diversos mercados existentes <br> y lograr diversidad de soluciones tecnologicas </p>
+    <p id="WhoWeAre-Paragraph">Con una amplia cartera de clientes desde<br><strong>Particulares / Corporativos / Emprendedores</strong></p>
+    <p id="WhoWeAre-Paragraph02">Nuestra meta es abarcar los diversos mercados existentes <br> y lograr diversidad de soluciones tecnológicas </p>
      
 
 </div> <!--End of Who We Are Section-->
@@ -254,16 +254,16 @@
 
 <div style="background:#be641e; width:100%; position:absolute; top:720px; height:680px; z-index:1;">
 
-      <img id="Image001" style="float:left; position:absolute; padding-left:48%;height:60px; top:120px;" src="images/Coffee.png" alt="001">
+      <img id="Image001" src="images/Coffee.png" alt="001">
 
-      <div style="font-size:50px; color:#ffffff; padding-left:33.5%; margin-top:15%; position:relative;">Trabaja <strong>con </strong>nosotros</div>
+      <div id="WorkWithUs-Title">Trabaja <strong>con </strong>nosotros</div>
       <br>
-      <p style="color:#f6ebe0; width:80%; font-family:Avenir; font-size:28px;padding-left:10%;text-align:center; position:relative;top:1%;">Obtenemos resultados increíbles, impulsados por nuestra definición de equipos integrados de producto que siguen una vision compartida. </p>
+      <p style="color:#f6ebe0; width:80%; font-family:Avenir; font-size:28px;padding-left:10%;text-align:center; position:relative;top:1%;">Obtenemos resultados increíbles, impulsados por nuestra definición de equipos integrados de productos que siguen una vision compartida. </p>
       <br>
-      <p style="color:#f6ebe0; width:80%; font-family:Avenir; font-size:28px;padding-left:10%;text-align:center; position:relative;top:1%;">Todos lso dias trabajaras con un eqipo como dinamico; un equipo que confia en nuestra formula de trabajo, y un equipo dispuesto a desafiar y pensar en grande.</p>
+      <p style="color:#f6ebe0; width:80%; font-family:Avenir; font-size:28px;padding-left:10%;text-align:center; position:relative;top:1%;">Todos los días trabajarás con un equipo dinámico; un equipo que confía en nuestra fórmula de trabajo, y un equipo dispuesto a desafiar y pensar en grande.</p>
 
       <div style="padding-left:-20%;">
-        <button class="button button--ujarak button--border-medium button--round-s button--text-thick">Aplica ahora</button>
+        <button class="button button--ujarak button--border-medium button--round-s button--text-thick">Aplíca ahora</button>
       </div>
 </div>
 
@@ -620,11 +620,11 @@
 <!--Social Media Icons-->
 
  <div id="SocialMedia">
-  <img id="LinkedIn" style="height:40px;" src="images/twitter.png" alt="twitter"></img>
-  <img id="LinkedIn" style="height:40px; padding-left:3%;" src="images/facebook.png" alt="facebook"></img>
-  <img id="LinkedIn" style="height:40px; padding-left:3%;" src="images/youtube.png" alt="youtube"></img>
+  <img id="Twitter" style="height:40px;" src="images/twitter.png" alt="twitter"></img>
+  <img id="Facebook" style="height:40px; padding-left:3%;" src="images/facebook.png" alt="facebook"></img>
+  <img id="Youtube" style="height:40px; padding-left:3%;" src="images/youtube.png" alt="youtube"></img>
   <img id="LinkedIn" style="height:40px; padding-left:3%;" src="images/Linkedin.png" alt="Linkedin"></img>
-  <img id="LinkedIn" style="height:40px; padding-left:3%;" src="images/instagram.png" alt="instagram"></img>
+  <img id="Instagram" style="height:40px; padding-left:3%;" src="images/instagram.png" alt="instagram"></img>
  </div> 
 
 
@@ -632,13 +632,12 @@
 
      <span class="menu--shylock2">
 
-            <ul class="menu__list" id="navbar" style=" position:absolute; padding-top:10%; padding-left:27%; float:left; color:white;">
+            <ul class="menu__list" id="navbar">
 
 
              <li class="menu__item menu__item--current"><a href="#" class="menu__link2">Inicio</a></li>
              <li class="menu__item"><a  href="#WhatWeOffer" class="menu__link2">Servicios</a></li>
              <li class="menu__item"><a href="#Method" class="menu__link2">Metodología</a></li>
-             <li class="menu__item"><a href="#Startups" class="menu__link2">Clientes</a></li>
              <li class="menu__item"><a href="#WhoWeAre" class="menu__link2">Nosotros</a></li>
              <li class="menu__item"><a href="#GetInTouch" class="menu__link2">Contacto</a></li>
             </ul>

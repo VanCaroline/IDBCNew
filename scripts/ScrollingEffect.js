@@ -12,6 +12,8 @@ $(window).scroll(function(){
     $( "nav" ).css("height", "140");
 
 
+
+
   }
 
   if (scroll <= 0 ) {
