@@ -392,6 +392,13 @@ margin-top: -19px;
 position: absolute;
 }
 
+
+#formulario{
+  background-color: black;
+  width: 50%;
+}
+
+
 #Name{
     float: left;
     top: 120px;
