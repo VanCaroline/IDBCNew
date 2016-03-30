@@ -16,11 +16,11 @@ a{
 }
 
 head, body, h1, p{
-font-family: "Avenir", sans serif;
+font-family: "Avenir", "Helvetica", sans serif;
 }
 
 strong{
-  font-family: "AvenirBold", sans serif;
+  font-family: "AvenirBold", "Helvetica", sans serif;
 }
  
 
@@ -228,7 +228,7 @@ padding-left:20%;
   width:100%; 
   position:absolute; 
   top:2050px; 
-  height:950px;
+  height:800px;
 }
 
 #Me-Title01{
@@ -263,7 +263,7 @@ position:absolute;
   display:block;
   position: absolute;
   height:1400px; 
-  top:3000px;
+  top: 2850px;
 }
 
 #WhoWeAre-Title{
@@ -289,7 +289,7 @@ width: 60%;
   width:100%; 
   font-family:Avenir; 
   font-size:28px;
-  padding-left:15%;
+  padding-left: 19.5%;
   text-align:center; 
   position:relative;
 }
@@ -299,7 +299,7 @@ width: 60%;
   width:100%; 
   font-family:Avenir; 
   font-size:28px;
-  padding-left:16%;
+  padding-left: 20%;
   text-align:center; 
   position:relative;
 }
@@ -315,7 +315,7 @@ width: 60%;
 #Paragraph-01{
     width: 80%;
     position:absolute;
-    font-family: "Avenir", sans serif;
+    font-family: "Avenir", "Helvetica", sans serif;
     font-weight: light;
     font-size:72px;
     text-align:center;
@@ -351,10 +351,19 @@ margin-top:2%;
   position:absolute;
 }
 
+#Strategy-Paragraph{
+  position:absolute;
+  padding-left:42.7%; 
+  padding-top:23%; 
+  color:white; 
+  font-size:22px; 
+  text-align:center;
+}
+
 #Image001{
   float:left; 
   position:absolute; 
-  padding-left:48%;
+  padding-left: 49%;
   height:60px; 
   top:120px;
 }
@@ -362,7 +371,7 @@ margin-top:2%;
 #WorkWithUs-Title{
   font-size:50px; 
   color:#ffffff; 
-  padding-left:33.5%; 
+  padding-left: 35.7%;
   margin-top:15%; 
   position:relative;
 }
@@ -375,7 +384,7 @@ margin-top:2%;
 }
 
 .menu__list {
-    font-family: "Avenir";
+    font-family: "Avenir", "Helvetica", sans-serif;
     position: relative;
     display: -webkit-flex;
     display: flex;
@@ -509,10 +518,9 @@ top:1370px;
 #Footer{
 height:100px; 
 width:100%; 
-top:2600px; 
 position:absolute;
 background-color:#090909; 
-top:5470px;
+top: 5260px;
 font-size:22px; 
 color:grey;
 text-align:center;
@@ -520,14 +528,14 @@ text-align:center;
 
 #PreFooter{
 background-color:#232323; 
-top:5200px; 
+top: 4970px;
 position:absolute;
 width:100%; 
 height:300px;
 }
 
 #SocialMedia{
-padding-left:39%; 
+padding-left:40%; 
 padding-top:5%;  
 position:absolute; 
 display:inline-block; 
@@ -1068,7 +1076,7 @@ nav {
   background: #f0f0f0;
   color: #aaa;
   font-weight: 400;
-  font-family: "Avenir", sans-serif;
+  font-family: "Avenir", "Helvetica", sans-serif;
   -webkit-appearance: none; /* for box shadows to show on iOS */
 }
 
@@ -1304,7 +1312,7 @@ header {
   height: 59px;
   padding: 0em 2em !important;
   display: block;
-  margin-left: 41.5%;
+  margin-left: 43.5%;
   margin-top: 4%;
   padding: 1em 8em;
   border-color: #fff;
@@ -1403,7 +1411,7 @@ header {
 }
 
 .menu__list2 {
-    font-family: "Avenir";
+    font-family: "Avenir", "Helvetica", sans-serif;
     position: relative;
     display: -webkit-flex;
     display: flex;
@@ -1516,7 +1524,7 @@ header {
 .menu--shylock2 .menu__list#navbar{
     position:absolute; 
     padding-top:10%; 
-    padding-left:27%; 
+    padding-left:33.5%; 
     float:left; 
     color:white;
 }
@@ -1658,7 +1666,7 @@ padding-left:15%;
 }
 
 #WorkWithUs-Title{
-  padding-left: 30.5%;
+  padding-left: 36%;;
 }
 
 .menu--shylock2 .menu__list#navbar{
@@ -1721,3 +1729,4 @@ top:1920px;
     width:50%;
 }
 
+}
