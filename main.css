@@ -427,7 +427,7 @@ margin-top:2%;
 /* Shylock */
 .menu--shylock .menu__link {
   position: relative;
-  font-size:22px;
+  font-size:18px;
   margin: 0 1em;
   padding-right: 0;
   padding-left: 0;
@@ -1072,7 +1072,7 @@ nav {
   color: #aaa;
   font-weight: 400;
   font-family: "Avenir", "Helvetica", sans-serif;
-  -webkit-appearance: none; /* for box shadows to show on iOS */
+  -webkit-appearance: none; /* for box adows to show on iOS */
 }
 
 .input__field:focus {
