@@ -838,6 +838,9 @@ position: absolute;
       }
 
 /* Button */
+  input[type="submit"]{
+    background-color: #fff !important;
+  }
 
   input[type="button"],
   input[type="submit"],
@@ -860,9 +863,9 @@ position: absolute;
     outline: 0;
     padding: 1em 3em 1em 3em;
     text-align: center;
-    border-radius: 3em;
     font-weight: 400;
     
+   /* border-radius: 3em; */
   }
 
     input[type="button"]:hover,
@@ -870,7 +873,7 @@ position: absolute;
     input[type="reset"]:hover,
     button:hover,
     .button:hover {
-      background: #45c89f;
+      background-color: #45c89f;
     }
 
     input[type="button"].style2,
@@ -1192,7 +1195,6 @@ nav {
   height: 100%;
   width: 100%;
   padding: 12px;
-  text-transform: <;
   letter-spacing: 1px;
   color: #fff;
   font-size: 0.85em;
@@ -1421,7 +1423,7 @@ header {
 }
 
 
-/* Ujarak */
+/* Ujarak 2 */
 .button--ujarak2 {
   -webkit-transition: border-color 0.4s, color 0.4s;
   transition: border-color 0.4s, color 0.4s;
@@ -1470,7 +1472,54 @@ header {
   transform: translate3d(0, 0, 0);
 }
 
+/* Ujarak 3 */
+.button--ujarak3 {
+  -webkit-transition: border-color 0.4s, color 0.4s;
+  transition: border-color 0.4s, color 0.4s;
+}
+.button--ujarak3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
 
+  border-color: #fff !important;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transform: scale3d(0.7, 1, 1);
+  transform: scale3d(0.7, 1, 1);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+  transition: transform 0.4s, opacity 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.button--ujarak3.button--round-s::before {
+  border-radius: 2px;
+}
+.button--ujarak3.button--inverted::before {
+  background: #7986CB;
+}
+.button--ujarak3,
+.button--ujarak3::before {
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.button--ujarak3:hover {
+  color: #93b743!important;
+  border-color: #fff;
+}
+.button--ujarak3.button--inverted:hover {
+  color: #37474F;
+  border-color: #fff;
+}
+.button--ujarak3:hover::before {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
 
 /* = Low Menu
 -------------------------------------------------------------- */
