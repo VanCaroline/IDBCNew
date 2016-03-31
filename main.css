@@ -594,18 +594,19 @@ position: absolute;
 
 #Name{
     float: left;
-    top: 120px;
+    top: -10%;
 
 }
 
 #Email{
     float: right;
-    top: -19px;
-    left: 105px;
+    top: -10%;
+    left: 3%;
 }
 
 #Compania{
-    margin-top: -67px;
+    margin-top: -12%;
+
 }
 
 
@@ -613,14 +614,14 @@ position: absolute;
     color: white;
     background-color: #00557d;
     border: 0px;
-    width: 248px;
-    height: 51px;
+    width: 245px;
+    height: 44px;
     border-radius: 3px;
     float: right;
     position: relative;
     margin-bottom: 10px;
-    top: -96px;
-    right: -89px;
+    top: -11%;
+    right: 0%;
 }
 
   form label {
@@ -1750,4 +1751,16 @@ top:1920px;
     width:50%;
 }
 
+}
+
+.form-style{
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+    margin-top: 28%;
+    margin-left: 17%;
+    width: 655px;
+    height: 455px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
 }
