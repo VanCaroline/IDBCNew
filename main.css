@@ -579,13 +579,14 @@ float:left;
 
 #Message
 {
-color:white; 
-background-color:#00557d;
+color:black; 
+background-color:#fff;
 border: 0px;
 width:46%; 
 height:200px; 
 border-radius: 3px;
 margin-top: -19px;
+margin-left: 20px;
 position: absolute;
 }
 
@@ -600,41 +601,31 @@ position: absolute;
 
 #Email{
     float: right;
-<<<<<<< HEAD
-    left: 110%;;
+    left: 3%;
+    top: -10%;
 }
 
-#Compania{
-   margin-top: -50px;
-=======
-    top: -10%;
-    left: 3%;
-}
 
 #Compania{
     margin-top: -12%;
 
->>>>>>> origin/master
 }
 
-
 #Pais{
-    color: white;
-    background-color: #00557d;
+    color: black;
+    background-color: #fff;
     border: 0px;
     width: 245px;
     height: 44px;
     border-radius: 3px;
     float: right;
+    font-family: "Avenir", "Helvetica", sans-serif;
+    font-size: 17px;
     position: relative;
     margin-bottom: 10px;
-<<<<<<< HEAD
-    top: -84px;
-    right: -287px;
-=======
     top: -11%;
     right: 0%;
->>>>>>> origin/master
+
 }
 
   form label {
@@ -1095,7 +1086,7 @@ nav {
   z-index: 1;
   display: inline-block;
   margin: 1em;
-  max-width: 250px;
+  max-width: 249px;
   width: calc(100% - 2em);
   vertical-align: top;
 }
@@ -1110,7 +1101,7 @@ nav {
   border-radius: 0;
   background: #f0f0f0;
   color: #aaa;
-  font-weight: 400;
+  font-weight: 20px;
   font-family: "Avenir", "Helvetica", sans-serif;
   -webkit-appearance: none; /* for box adows to show on iOS */
 }
@@ -1126,7 +1117,7 @@ nav {
   width: 40%;
   color: #696969;
   font-weight: bold;
-  font-size: 70.25%;
+  font-size: 17px;
   -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   -webkit-touch-callout: none;
@@ -1168,11 +1159,10 @@ nav {
 
 .input__field--kozakura {
   padding: 0.25em 0.5em;
-  margin-right: -1em;
-  margin-top: 1em;
+  margin-top: 23px;
   width: 100%;
   background: transparent;
-  color: #2F3238;
+  color: black;
   font-size: 1.55em;
   opacity: 0;
 }
@@ -1181,7 +1171,7 @@ nav {
   width: 100%;
   text-align: left;
   position: absolute;
-  top: 1em;
+  top: -16px;
   pointer-events: none;
   overflow: hidden;
   padding: 0 0.25em;
@@ -1192,12 +1182,13 @@ nav {
 }
 
 .input__label-content--kozakura {
-  color: #A4A5A6;
+  color: black;
   padding: 0.4em 0 0.25em;
   -webkit-transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
 }
 
+/* Efecto del formulario*/
 .input__label-content--kozakura::after {
   content: attr(data-content);
   position: absolute;
@@ -1206,15 +1197,15 @@ nav {
   left: 0;
   height: 100%;
   width: 100%;
-  color: #fff;
-  padding: 0.25em 0;
-  text-transform: uppercase;
+  padding: 12px;
+  text-transform: <;
   letter-spacing: 1px;
+  color: #fff;
   font-size: 0.85em;
 }
 
 .graphic--kozakura {
-  fill: #00557d;
+  fill: #fff;
   pointer-events: none;
   top: 1em;
   bottom: 0px;
@@ -1822,9 +1813,8 @@ top:1920px;
     border-radius: 6px;
     padding: 45px 45px 20px;
     margin-top: 28%;
-    margin-left: 17%;
+    margin-left: -26%;
     width: 655px;
     height: 455px;
-    background-color: white;
-    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+    background-color: #333;
 }
