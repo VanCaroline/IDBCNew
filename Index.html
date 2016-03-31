@@ -93,7 +93,7 @@
 
       <div class=" rw-words-1">      
         <div id="Paragraph-01" style="display:inline-block;">
-         <p id="Services-Solutions">SERVICIOS Y SOLUCIONES <br>TECNOLÓGIAS <br><p id="Impact" style="float:left; position:relative;">DE ALTO IMPACTO PARA</p> &nbsp;
+         <p id="Services-Solutions">SERVICIOS Y SOLUCIONES <br>TECNOLÓGIAS <br></p><p id="Impact" style="float:left; position:relative;">DE ALTO IMPACTO PARA</p> &nbsp;
                   <div id="WordsContainer" style="float:right; position:relative; left:-44%;">
                     <span id="WordsChange"> EMPRENDEDORES</span>
                     <span id="WordsChange"> CORPORACIONES</span>
@@ -108,7 +108,11 @@
       </div>
 
         <!--Arrow-->
-         <a class="salida" id="pruebaboton-1" ><img src="images/arrow.png" style="width:50%;"></img></a>
+         <a class="salida" id="pruebaboton-1" ><img src="images/arrow.png" style="width:50%;"></img>
+<div id="llegada-1" style="width:100%; background-color:white; z-index:10000;"></div> 
+
+         </a>
+
      </div> <!--End of Words Changing Section-->
 
     </div> <!--End of Header Parragraph Section-->
@@ -124,7 +128,7 @@
 
 <div style="padding-left:7%;">
 <div class="col-md-5" style="padding-left:10%; padding-top:2%;">
-<head></head>
+
    <div class="col-md-4"><img id="Image01" src="images/Image01.png" alt="Image01"></img></div>
    <div class="col-md-4"><img id="Image02" src="images/Image02.png" alt="Image01"></img></div>
    <div class="col-md-4"><img id="Image03" src="images/Image03.png" alt="Image01"></img></div>
@@ -637,4 +641,19 @@
 
   </body>
 
+<!--Effect of arrow-->
+<script type="text/javascript">
+   $(document).ready(function(){      
+
+    $('.salida').on('click', function () {
+
+          var n=$(this).attr('id').split('-');
+          console.log(n);
+          $("#llegada-" + n[1]).animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});
+    });
+
+
+  })
+
+</script>
 </html>
