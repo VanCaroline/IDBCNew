@@ -10,7 +10,7 @@
 $cabeceras = "From: $Email\n" //La persona que envia el correo
  . "Reply-To: $Email\n";
 $asunto = "Message sent from the IDBCGroup Website"; //asunto aparecera en la bandeja del servidor de correo
-$email_to = "hola@idbcgroup.com"; //cambiar por tu email
+$email_to = "darteaga@idbcgroup.com"; //cambiar por tu email
 $contenido = "$Name ha enviado un mensaje desde la web de IDBC Group (www.idbcgroup.com)\n"
 . "\n"
 . "Nombre: $Name\n"
@@ -24,7 +24,7 @@ $contenido = "$Name ha enviado un mensaje desde la web de IDBC Group (www.idbcgr
 if (@mail($email_to, $asunto ,$contenido ,$cabeceras )) {
 
 //Si el mensaje se envía muestra una confirmación
-header("Location: http://www.idbcgroup.com/Test/Test.html");
+header("Location: http://www.idbcgroup.com/test/index.html");
 die("Gracias, su mensaje fue enviado correctamente.");
 }else{
  
