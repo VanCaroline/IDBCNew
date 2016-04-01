@@ -559,20 +559,20 @@ height:300px;
 }
 
 #SocialMedia{
-padding-left:42.5%; 
-padding-top:5%;  
+padding-left: 42.35%;
+padding-top:8.8%;  
 position:absolute; 
 display:inline-block; 
 width:100%;
-}
+}     
 
 /* =Form
 -------------------------------------------------------------- */
 
 #Row1{
 top:2200px; 
-padding-left:300px; 
 float:left;
+padding-left:83%;
 }
 
 #Message {
@@ -1084,8 +1084,7 @@ nav {
 
 #pruebaboton-2{
   position: absolute;
-  left: 48%;
-  top: -7%;
+  left: 47%;
   z-index: 1;
 }
 
@@ -1410,7 +1409,7 @@ header {
   transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 }
 .button--ujarak.button--round-s::before {
-  border-radius: 2px;
+  border-radius: 5px;
 }
 .button--ujarak.button--inverted::before {
   background: #7986CB;
@@ -1460,7 +1459,7 @@ header {
   transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 }
 .button--ujarak2.button--round-s::before {
-  border-radius: 2px;
+  border-radius: 5px;
 }
 .button--ujarak2.button--inverted::before {
   background: #7986CB;
@@ -1655,16 +1654,321 @@ header {
 .menu--shylock2 .menu__list#navbar{
     position:absolute; 
     padding-top:10%; 
-    padding-left:33.5%; 
+    padding-left: 33.6%; 
     float:left; 
     color:white;
 }
 
+
+/*-----Form-------*/
+
+  .form-style {
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+    margin-top: 24%;
+    margin-left: -31%;
+    width: 750px;
+    height: 405px;
+    background-color: #454545;
+}
+
+#Enviar{
+  background: #333 !important; 
+  margin-top: 25px; 
+  left: 200%;
+}
+
+#Image03{
+float:left; 
+height:400px; 
+top:120px; 
+position:absolute; 
+padding-left:25%; 
+z-index:10;
+}
+
+#AvilaHolding{
+  float:left; 
+  position:absolute; 
+  padding-left: 31.5%; 
+  height:120px; 
+  top:270%;
+}
+
+#SomosParte{
+  padding-top: 45%; 
+  padding-left: 31.5%; 
+  position:absolute; 
+  font-size:22px; 
+  z-index:1111;
+}
+
+
 /*-----Responsive-------*/
+
+
+@media (max-width: 1440px) {
+
+  #SomosParte{
+  padding-top: 45%; 
+  padding-left: 24%;
+  position:absolute; 
+  font-size:22px; 
+  z-index:1111;
+  }
+
+#Image001{
+      padding-left: 48%;
+}
+
+#AvilaHolding{
+  float:left; 
+  position:absolute; 
+  padding-left: 23.5%; 
+  height:120px; 
+  top:270%;
+}
+
+  #pruebaboton-2 {
+    position: absolute;
+    left: 46.7%;
+    z-index: 1;
+}
+
+#Image03{
+float:left; 
+height:400px; 
+top:120px; 
+position:absolute; 
+padding-left: 16.8%;
+z-index:10;
+}
+
+
+#SocialMedia{
+padding-left: 41.5%;
+padding-top:8.8%;  
+position:absolute; 
+display:inline-block; 
+width:100%;
+}   
+
+  .form-style {
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+    margin-top: 24%;
+    margin-left: -56%;
+    width: 750px;
+    height: 405px;
+    background-color: #454545;
+
+}
+
+#Enviar{
+  background: #333 !important; 
+  margin-top: 25px; 
+  left: 75%;
+}
+
+#Row1{
+top:2200px; 
+float:left;
+padding-left:90%;
+}
+
+video{
+    width: 1200px;
+    top: 0px;
+}
+
+#Paragraph-01 {
+
+    left: 140px;
+}
+
+#Impact{
+padding-left: 0px;
+
+}
+
+#WordsContainer{
+top:53.1%; 
+left:58%;
+}
+
+
+#navbar {
+    position: absolute;
+    padding-top: 2.6%;
+    float: right;
+    padding-left: 23%;
+}
+
+#Message {
+  width: 48%;
+
+}
+
+#LogoImage {
+    padding-left: 25px;
+    height: 120px !important;
+    width: 210px;
+    padding-top: 24px;
+}
+
+.video-container{
+    height: 52%;
+}
+
+#Business{
+margin-top:-69%;
+padding-left: 30%;
+}
+
+#Strategy{
+ font-size:32px; 
+ float:right; 
+ margin-top:-3%; 
+ color:#a0a7ab; 
+}
+
+#FirstSet{
+padding-left:13%; 
+margin-top:5%;
+}
+
+#SecondSet{
+  padding-left:13%; 
+
+}
+
+#Develop{
+  display:inline-block; 
+  padding-left:15%;
+}
+
+#SecondIcon{
+  padding-left:30%;
+}
+
+#ThirdIcon{
+  padding-left:59%;
+}
+
+#Method{
+  background:#84b73f; 
+  width:100%; 
+  position:absolute; 
+  top:1450px; 
+  height:470px;
+}
+
+#Method-Title{
+padding-left: 37.5%;
+}
+
+#Method-Paragraph{
+  width: 45%;
+  padding-left: 29%;
+}
+
+#Method-Image{
+padding-left:8%; 
+}
+
+#Startups-Title{
+padding-left:24%;
+}
+
+#WhoWeAre-Paragraph02{
+ width: 104%;
+ padding-left: 13%;
+}
+
+#WhoWeAre-Paragraph
+{
+padding-left:15%;
+}
+
+#Development-01{
+padding-left: 25.6%; 
+}
+
+#Strategy-01{
+  padding-left:48.5%; 
+}
+
+#Visuals-01{
+  padding-left:72%; 
+}
+
+#Image001{
+  padding-left: 48.5%;
+}
+
+#WorkWithUs-Title{
+  padding-left: 36%;;
+}
+
+.menu--shylock2 .menu__list#navbar{
+    padding-top: 12%;
+    padding-left: 31%;
+}
+}
+#pruebaboton-1 {
+    top: 37%;
+}
+
+.video-container {
+    height: 42.2%;
+}
+
+#Startups{
+top:1920px;
+}
+
+#WhoWeAre{
+  top:2870px;
+}
+
+#WorkWithUs{
+  padding-left: 33%;
+}
+
+
+}
+
+
+
 
 
 
 @media (max-width: 1200px) {
+
+  .form-style {
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+    margin-top: 24%;
+    margin-left: -39%;
+    width: 750px;
+    height: 405px;
+    background-color: #454545;
+}
+
+#Enviar{
+  background: #333 !important; 
+  margin-top: 25px; 
+  left: 160%;
+}
+
+#Row1{
+top:2200px; 
+float:left;
+padding-left:90%;
+}
 
 video{
     width: 1200px;
@@ -1823,7 +2127,11 @@ top:1920px;
 
 }
 
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+
+
+
+}
 
 @media (max-width: 768px) {}
 
@@ -1860,16 +2168,5 @@ top:1920px;
     width:50%;
 }
 
-}
-
-.form-style {
-    border: 1px solid #CED5D7;
-    border-radius: 6px;
-    padding: 45px 45px 20px;
-    margin-top: 24%;
-    margin-left: -39%;
-    width: 750px;
-    height: 405px;
-    background-color: #454545;
 }
 
