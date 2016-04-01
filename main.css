@@ -1679,7 +1679,7 @@ header {
   left: 200%;
 }
 
-#Image03{
+#Image--03{
 float:left; 
 height:400px; 
 top:120px; 
@@ -1705,10 +1705,27 @@ z-index:10;
 }
 
 
+#Method-icons{
+  float: left; 
+  top:-40px; 
+  padding-left:2.8%;
+}
+
 /*-----Responsive-------*/
 
 
 @media (max-width: 1440px) {
+
+  #Impact {
+    text-align: left;
+    left: 7% !important;
+    font-family: Avenir;
+    letter-spacing: 2px;
+    font-size: 42px;
+    top: -20%;
+    float: left;
+    position: relative;
+}
 
   #SomosParte{
   padding-top: 45%; 
@@ -1736,7 +1753,7 @@ z-index:10;
     z-index: 1;
 }
 
-#Image03{
+#Image--03{
 float:left; 
 height:400px; 
 top:120px; 
@@ -1786,12 +1803,9 @@ video{
 #Paragraph-01 {
 
     left: 140px;
+    top:250px;
 }
 
-#Impact{
-padding-left: 0px;
-
-}
 
 #WordsContainer{
 top:53.1%; 
@@ -1823,7 +1837,7 @@ left:58%;
 }
 
 #Business{
-margin-top:-69%;
+padding-left: 33% !important;
 padding-left: 30%;
 }
 
@@ -1866,12 +1880,19 @@ margin-top:5%;
 }
 
 #Method-Title{
-padding-left: 37.5%;
+padding-left: 40%;
 }
 
 #Method-Paragraph{
-  width: 45%;
-  padding-left: 29%;
+    width: 73%;
+    padding-left: 30%;
+}
+
+#Method-icons{
+  float: left; 
+  top:0px; 
+  left: -7% !important;
+  position:relative;
 }
 
 #Method-Image{
@@ -1901,7 +1922,7 @@ padding-left: 25.6%;
 }
 
 #Visuals-01{
-  padding-left:72%; 
+ padding-left: 70.5%;
 }
 
 #Image001{
@@ -1909,7 +1930,7 @@ padding-left: 25.6%;
 }
 
 #WorkWithUs-Title{
-  padding-left: 36%;;
+  padding-left: 34%;
 }
 
 .menu--shylock2 .menu__list#navbar{
@@ -1918,11 +1939,11 @@ padding-left: 25.6%;
 }
 }
 #pruebaboton-1 {
-    top: 37%;
+    top: 77%;
 }
 
 .video-container {
-    height: 42.2%;
+    height: 90%;
 }
 
 #Startups{
@@ -1938,10 +1959,79 @@ top:1920px;
 }
 
 
+.button {
+  min-width: 150px;
+  max-width: 250px;
+  height: 59px;
+  padding: 0em 2em !important;
+  display: block;
+  margin-left: 42.4%;
+  margin-top: 4%;
+  padding: 1em 8em;
+  border-color: #fff;
+  background: none;
+  color: white !important;
+
+  font-family: Avenir,sans-serif;
+  font-size: 22px;
+  color: inherit;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+#WhoWeAre-Title{
+ padding-left: 37.8%;
+}
 
+header.smaller #LogoImage {
+    width: 150px;
+    height: 130px !important;
+    }
 
+    #navbar {
+    position: absolute;
+    padding-top: 2.6%;
+    float: right;
+    padding-left: 46%;
+}
+
+.menu__list{
+      top: 20px;
+}
+#Switch{
+      padding-top: 6%;
+}
+
+#Develop{
+padding-left: 18%;
+}
+
+#Dev{
+  padding-left:10%; 
+  padding-top:3.5%;
+}
+
+#WhoWeAre{
+
+    top: 2570px !important;
+}
+
+#Startups{
+      height: 740px;
+}
+
+#PreFooter{
+      top: 4670px;
+}
+
+#Footer{
+      top: 4960px;
+}
+
+}
 
 
 
@@ -2122,6 +2212,7 @@ top:1920px;
 
 #WhoWeAre{
   top:2870px;
+
 }
 
 
