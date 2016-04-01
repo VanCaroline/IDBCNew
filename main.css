@@ -103,7 +103,7 @@ padding-top: 30px;
 
 #switch{
 padding-left:90%; 
-padding-top:6.8%; 
+padding-top:5.8%; 
 position:absolute;
 }
 
@@ -116,7 +116,7 @@ position: relative;
 
 #navbar{
 position:absolute; 
-padding-top:3.5%; 
+padding-top:2.6%; 
 float:right; 
 padding-left:52%;
 }
@@ -574,10 +574,10 @@ float:left;
 #Message {
     background-color: #fff;
     border: 0px;
-    width: 47%;
+    width: 54%;
     height: 200px;
     border-radius: 3px;
-    margin-top: -19px;
+    margin-top: -4px;
     margin-left: 14px;
     position: absolute;
     color: black;
@@ -589,7 +589,7 @@ float:left;
 
 #Name{
     float: left;
-    top: -10%;
+    top: -15%;
     font-family: "Avenir", "Helvetica", sans-serif;
     letter-spacing: 0.04em;
 
@@ -597,15 +597,14 @@ float:left;
 
 #Email{
     float: right;
-    left: 3%;
-    top: -10%;
+    top: -15%;
     font-family: "Avenir", "Helvetica", sans-serif;
     letter-spacing: 0.04em;
 }
 
 
 #Compania{
-    margin-top: -12%;
+    margin-top: -10%;
     font-family: "Avenir", "Helvetica", sans-serif;
     letter-spacing: 0.04em;
 
@@ -615,16 +614,16 @@ float:left;
     color: rgba(153,153,153,0.7);
     background-color: #fff;
     border: 0px;
-    width: 245px;
-    height: 44px;
+    width: 248px;
+    height: 47px;
     border-radius: 3px;
     float: right;
     font-family: "Avenir", "Helvetica", sans-serif;
     font-size: 17px;
     position: relative;
     margin-bottom: 10px;
-    top: -11%;
-    right: 0%;
+    top: -13%;
+    right: 2%;
 
 }
 
@@ -647,7 +646,7 @@ float:left;
     border: 0;
     background: #f1f1f1;
     width: 100%;
-    padding: 0.75em;
+    padding: 0.47em;
   }
 
     form input[type="text"]:focus,
@@ -1165,7 +1164,7 @@ nav {
   margin-top: 23px;
   width: 100%;
   background: transparent;
-  color: rgba(153,153,153,0.7);
+  color: black;
   font-size: 1.55em;
   opacity: 0;
 }
@@ -1861,9 +1860,9 @@ top:1920px;
     border: 1px solid #CED5D7;
     border-radius: 6px;
     padding: 45px 45px 20px;
-    margin-top: 58%;
-    margin-left: -88%;
-    width: 223%;
-    height: 416px;
+    margin-top: 24%;
+    margin-left: -39%;
+    width: 750px;
+    height: 405px;
     background-color: #454545;
 }
