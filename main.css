@@ -1077,10 +1077,11 @@ nav {
  position:absolute;
  z-index:1;}
 
-#pruebaboton-3{
-  padding-right: 30%;
-  z-index: 1;
+#pruebaboton-2{
   position: absolute;
+  left: 48%;
+  top: -7%;
+  z-index: 1;
 }
 
 .input {
