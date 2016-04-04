@@ -656,9 +656,20 @@ color:#fff;background-color:#fec503;border-color:#f6bf01}
 
 .btn-primary .badge{color:#fed136;background-color:#fff}
 
-.btn-xl{color:#fff;background-color:#fed136;border-color:#fed136;font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;border-radius:3px;font-size:18px;padding:20px 40px}
+.btn-xl{
+  color:#fff;
+  background-color:#454545;
+  border-color:#454545;
+  font-family:"Avenir",
+  Helvetica,Arial,sans-serif;
+  text-transform:uppercase;
+  font-weight:700;
+  border-radius:3px;
+  font-size:18px;
+  padding:20px 40px
+  }
 
-.btn-xl:hover,.btn-xl:focus,.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl{color:#fff;background-color:#fec503;border-color:#f6bf01}
+.btn-xl:hover,.btn-xl:focus,.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl{color:#454545;background-color:#fff;border-color:#454545}
 
 .btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl{background-image:none}
 
@@ -864,6 +875,7 @@ section h3.section-subheading{font-size:16px;font-family:"Avenir",Helvetica,Aria
 
 .team-member p{margin-top:0}aside.clients img{margin:50px auto}
 
+/*Estilos de la seccion de contacto y el formulario*/
 section#contact{background-color:#fff;background-position:center;background-repeat:no-repeat}
 
 section#contact .section-heading{color:#fff}
@@ -872,9 +884,24 @@ section#contact .form-group{margin-bottom:25px}
 
 section#contact .form-group input,section#contact .form-group textarea{padding:20px}
 
-section#contact .form-group input.form-control{height:auto}
+section#contact .form-group input.form-control{
+    height: auto;
+    
+}
 
-section#contact .form-group textarea.form-control{height:236px}
+#form{
+      border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+
+    background-color: #454545;
+}
+
+section#contact .form-group textarea.form-control{
+    height: 236px;
+    width: 96%;
+    margin-left: 2%;
+}
 
 section#contact .form-control:focus{border-color:#fed136;box-shadow:none}
 
