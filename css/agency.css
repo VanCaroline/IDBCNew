@@ -701,6 +701,9 @@ color:#fff;background-color:#fec503;border-color:#f6bf01}
 
 @media (min-width:768px){
 
+#toggle{
+display: none;
+}
 .navbar-default{background-color:transparent;-webkit-transition:padding .3s;-moz-transition:padding .3s;transition:padding .3s;border:0}
 
 .navbar-default .navbar-brand{font-size:2em;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}
@@ -974,6 +977,9 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 #WordsChange{font-size:32px;}}
 
 @media (max-width:768px){
+  #navbar{
+  display: none;
+}
 
 header{ background-image:url('../img/mobilespace.jpg');}
 
