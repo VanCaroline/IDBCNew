@@ -601,7 +601,7 @@ position:absolute;
     100% { opacity: 0; }
 }
 
-
+#ev{float:right;}
 
 /*--video--*/
 
@@ -800,6 +800,8 @@ height: 80px !important;
 #Eye{width:30%;}
 
 }
+
+#Enviar{margin-top: 1%; margin-left: 88%}
 
 .navbar-default.navbar-shrink .navbar-brand{font-size:1.5em}}
 
@@ -1089,6 +1091,7 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
     margin-left: 2% !important;
   }
 
+
 #ok{ visibility: hidden;}
 
 #LogoImage{visibility: hidden;}
@@ -1105,7 +1108,7 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
 #metodo{width: 41.5%;left:15%;}
 
-#dev{left:5%;}
+#dev{left:5%; float:left;}
 
 #getintouch{left:-20%; top:-30%;margin-bottom:10%;}
 
@@ -1129,6 +1132,32 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
 
 @media (max-width:480px){
+
+
+#bar1{visibility: hidden;}
+
+#metodo {
+    width: 10%;
+    left: -35%;
+}
+
+#Enviar{margin-top: 1%; margin-left: 8%}
+
+#team{background-color: transparent;}
+
+#aplica {
+    left: -20%;
+}
+
+#getintouch{left: -6%;}
+
+#dev{left:6%;}
+ 
+#sop{left:8%; float:left;}
+
+#ev2{  
+left: 122%;
+float: left;}
 
 header{ background-image:url('../img/mobilespace.jpg');}
 

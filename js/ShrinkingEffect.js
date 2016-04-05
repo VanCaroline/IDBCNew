@@ -12,7 +12,7 @@
 
             if (distanceY > shrinkOn) {
                 classie.add(header,"smaller");
-                $( "nav" ).css("background-color", "white");
+                $( "#bar1" ).css("background-color", "white");
                 $("#LogoImage").attr("src", "img/LogoBlue.png");
                 $("#LogoImage").css("width","120px");
                 $("#LogoImage").css("height","80px");
@@ -29,8 +29,8 @@
             } else {
                 if (classie.has(header,"smaller")) {
                     classie.remove(header,"smaller");
-                    $( "nav" ).css("background-color", "transparent");
-                    $("#LogoImage").attr("src", "img/logo.png");
+                    $( "#bar1" ).css("background-color", "transparent");
+                    $("#LogoImage").attr("src", "img/Logo.png");
                     $("#LogoImage").css("width","210px");
                     $("#LogoImage").css("height","120px");
                     $(".menu__link").css("color","white");
