@@ -14,6 +14,7 @@
                 classie.add(header,"smaller");
                 $( "#bar1" ).css("background-color", "white");
                 $("#LogoImage").attr("src", "img/LogoBlue.png");
+                $("#LogoImage").css("z-index", "10000000000");
                 $("#LogoImage").css("width","120px");
                 $("#LogoImage").css("height","80px <|");
                 $("#LogoImage").css("margin-top","3px");
