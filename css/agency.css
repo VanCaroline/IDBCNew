@@ -1163,16 +1163,16 @@ position: absolute;
 
 #getintouch{left: 5%; width: 80%; top:-10px;}
 
-#dev{left:6%;}
+#dev{left:0%;}
  
-#sop{left:8%; float:left;}
+#sop{left:6%; float:left;}
 
 Footer{
 height:100px;
 }
 
 #ev2{  
-left: 122%;
+left: 112%;
 float: left;}
 
 #Eye{width:25%;}
