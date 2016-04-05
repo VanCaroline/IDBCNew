@@ -1,15 +1,5 @@
 <?php
-// Check for empty fields
-if(empty($_POST['nombre'])  		||
-   empty($_POST['email']) 		||
-   empty($_POST['compania']) 		||
-   empty($_POST['pais'])     ||
-   empty($_POST['mensaje'])	||
-   !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
-   {
-	echo "No arguments Provided!";
-	return false;
-   }
+
 	
 //Importamos las variables del formulario de contacto
 @$Name = addslashes($_POST['nombre']);
@@ -22,7 +12,7 @@ if(empty($_POST['nombre'])  		||
 $cabeceras = "From: $Email\n" //La persona que envia el correo
  . "Reply-To: $Email\n";
 $asunto = "Message sent from the IDBCGroup Website"; //asunto aparecera en la bandeja del servidor de correo
-$email_to = "darteaga@idbcgroup.com"; //cambiar por tu email
+$email_to = "hola@idbcgroup.com"; //cambiar por tu email
 $contenido = "$Name ha enviado un mensaje desde la web de IDBC Group (www.idbcgroup.com)\n"
 . "\n"
 . "Nombre: $Name\n"

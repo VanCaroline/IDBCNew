@@ -24,7 +24,7 @@
                 if (classie.has(header,"smaller")) {
                     classie.remove(header,"smaller");
                     $( "nav" ).css("background-color", "transparent");
-                    $("#LogoImage").attr("src", "img/Logo.png");
+                    $("#LogoImage").attr("src", "img/logo.png");
                     $("#LogoImage").css("width","210px");
                     $("#LogoImage").css("height","120px");
                     $(".menu__link").css("color","white");
