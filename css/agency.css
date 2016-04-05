@@ -39,6 +39,7 @@ strong{
     src: url("font-awesome/AvenirNextBold.otf");
 }
 
+
  header.smaller {
     height: 75px;
     z-index: 10000; }
@@ -65,6 +66,9 @@ strong{
     header.smaller a{
       text-decoration: none;
       color:#4b4b4b;}
+
+
+#iconbis{margin-bottom: 30%;}
 
 /* = Low Menu
 -------------------------------------------------------------- */
@@ -1135,6 +1139,9 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
 @media (max-width:480px){
 
+#head-startups{font-size:22px;}
+
+#iconbis{margin-bottom: 10%;}
 
 #switch{
 padding-left: 81%;
@@ -1142,7 +1149,9 @@ padding-top: 3.5%;
 position: absolute;
 }
 
-
+#row-method{
+width:30%;
+}
 
 
 
@@ -1161,7 +1170,7 @@ position: absolute;
     left: -20%;
 }
 
-#getintouch{left: 5%; width: 80%; top:-10px;}
+#getintouch{left: 9%; width: 80%; top:-10px;}
 
 #dev{left:0%;}
  
