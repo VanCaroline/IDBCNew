@@ -787,7 +787,7 @@ padding:10px 0
 
 .navbar-default.navbar-shrink #LogoImage{
 width: 0px;
-height: 0px !important;
+height: 0px ;
 }
 
 @media (min-width:992px){
@@ -1141,8 +1141,7 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
     z-index: -100000000; }
 
     header.smaller #LogoImage {
-    width: 0px;
-    height: 0px !important;
+
     position: absolute;
     padding-bottom: 0px;
     line-height: 0px;
@@ -1163,7 +1162,7 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
       text-decoration: none;
       color:#4b4b4b;}
 
-#barra{display:none;}
+
 
 
 #bar1{visibility: hidden;}

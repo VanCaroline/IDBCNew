@@ -3,7 +3,7 @@ $(window).scroll(function(){
   var scroll = $(window).scrollTop(),
   ancho=$(window).width();
             
-  if (ancho>768px){
+  if (ancho>768){
   if (scroll > 0 ) {
     $('nav').addClass('scrolled');
     $('nav').addClass('scrolled');
