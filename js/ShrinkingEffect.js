@@ -3,7 +3,13 @@
         window.addEventListener('scroll', function(e){
             var distanceY = window.pageYOffset || document.documentElement.scrollTop,
                 shrinkOn = 250,
-                header = document.querySelector("header");
+                header = document.querySelector("header"),
+                ancho=$(window).width();
+            
+            if (ancho>768){
+
+
+
             if (distanceY > shrinkOn) {
                 classie.add(header,"smaller");
                 $( "nav" ).css("background-color", "white");
@@ -34,7 +40,9 @@
 
                 }
             }
+            }
         });
     }
+
     window.onload = init();
 
