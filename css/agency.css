@@ -778,6 +778,7 @@ display: none;
 
 .navbar-default .navbar-nav>.active>a{border-radius:3px}
 
+
 .navbar-default.navbar-shrink{
 background-color:#fff; 
 opacity:0.97; 
@@ -785,8 +786,8 @@ padding:10px 0
 }
 
 .navbar-default.navbar-shrink #LogoImage{
-width: 120px;
-height: 80px !important;
+width: 0px;
+height: 0px !important;
 }
 
 @media (min-width:992px){
@@ -1132,6 +1133,36 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 @media (max-width:480px){
 
 
+ header.smaller {
+    height: 0px;
+    z-index: -100000000; }
+
+    header.smaller #LogoImage {
+    width: 0px;
+    height: 0px !important;
+    position: absolute;
+    padding-bottom: 0px;
+    line-height: 0px;
+    font-size: 30px;
+    z-index: -1000000;
+    padding-top: 0px;}
+
+    header.smaller #navbar{
+      font-size:0px;
+      top: 0px; }
+
+    header.smaller #language{
+      font-size: 0px;
+      top: 0px;
+      color: #4b4b4b;}
+
+    header.smaller a{
+      text-decoration: none;
+      color:#4b4b4b;}
+
+#barra{display:none;}
+
+
 #bar1{visibility: hidden;}
 
 #metodo {
@@ -1141,7 +1172,7 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
 #Enviar{margin-top: 1%; margin-left: 8%}
 
-#team{background-color: transparent;}
+#team{background-color: #004F76;}
 
 #aplica {
     left: -20%;
