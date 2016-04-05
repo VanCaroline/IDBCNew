@@ -499,6 +499,16 @@ float: left;
 position: absolute;
 }
 
+#metodo{
+  width:100%; 
+  padding-right:17%
+}
+
+#soporte{
+  float: left; 
+  margin-left:3.3%; 
+  margin-top:0%;
+}
 /* =Words Changing Effect
 -------------------------------------------------------------- */
 
@@ -1072,6 +1082,7 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
   #navbar{
   display: none;
 }
+
 #ok{ visibility: hidden;}
 
 #LogoImage{visibility: hidden;}
