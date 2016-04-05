@@ -415,7 +415,7 @@ section.module.parallax {
   margin: 0 1em;
   padding-right: 0;
   padding-left: 0;
-  color: #b5b5b5;
+  color: white;
   -webkit-transition: color 0.4s;
   transition: color 0.4s;
   z-index:999;
@@ -440,7 +440,7 @@ section.module.parallax {
 
 .menu--shylock .menu__link:hover,
 .menu--shylock .menu__link:focus {
-  color: #b5b5b5;
+  color: white;
 }
 
 .menu--shylock .menu__link:hover::before,
@@ -469,13 +469,13 @@ section.module.parallax {
 }
 
 .menu--shylock .menu__link::before {
-  background: #b5b5b5;
+  background: white;
   -webkit-transition-delay: 0.4s;
   transition-delay: 0.4s;
 }
 
 .menu--shylock .menu__link::after {
-  background: #b5b5b5;
+  background: white;
 }
 
 
@@ -782,6 +782,8 @@ height: 80px !important;
 
 #Second-Set{float: right; width: 50%;}
 
+#Eye{width:30%;}
+
 }
 
 .navbar-default.navbar-shrink .navbar-brand{font-size:1.5em}}
@@ -1029,12 +1031,67 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
 #WordsChange{font-size:32px;}}
 
+/*@media (max-width:992px){
+
+#navbar{
+  display: none;
+}
+#ok{ visibility: hidden;}
+
+#LogoImage{visibility: hidden;}
+
+#Line{visibility: hidden;}
+
+#iconbis{margin-bottom: 30%;}
+
+#Eye{width:30%;}
+
+#team{background-color: #BE641E;}
+
+#aplica{left:-8%;}
+
+#metodo{width: 41.5%;left:15%;}
+
+#dev{left:6%;}
+
+#ev{left:-3%;}
+
+#getintouch{left:-20%; top:-30%;margin-bottom:10%;}
+
+#somos{visibility:hidden;}
+
+#enviar{margin-left:40%;}
+*/
+
 @media (max-width:768px){
   #navbar{
   display: none;
 }
+#ok{ visibility: hidden;}
 
-header{ background-image:url('../img/mobilespace.jpg');}
+#LogoImage{visibility: hidden;}
+
+#Line{visibility: hidden;}
+
+#iconbis{margin-bottom: 30%;}
+
+#Eye{width:15%;}
+
+#team{background-color: #BE641E;}
+
+#aplica{left:-8%;}
+
+#metodo{width: 41.5%;left:15%;}
+
+#dev{left:5%;}
+
+#getintouch{left:-20%; top:-30%;margin-bottom:10%;}
+
+#somos{visibility:hidden;}
+
+#enviar{margin-left:40%;}
+
+header{ background-image:url('../img/mobilespace.jpg');z-index: 1;}
 
 header .intro-text{padding-top:300px;padding-bottom:200px}
 
