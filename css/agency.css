@@ -1165,6 +1165,9 @@ position: absolute;
  
 #sop{left:8%; float:left;}
 
+Footer{
+height:100px;
+}
 
 #ev2{  
 left: 122%;
