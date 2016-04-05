@@ -39,6 +39,7 @@ strong{
     src: url("font-awesome/AvenirNextBold.otf");
 }
 
+#services{padding-top:10px;}
 
  header.smaller {
     height: 75px;
@@ -1138,6 +1139,8 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
 
 @media (max-width:480px){
+
+#services{padding-top:110%;}
 
 #head-startups{font-size:22px;}
 
