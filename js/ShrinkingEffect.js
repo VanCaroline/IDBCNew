@@ -14,6 +14,7 @@
                 $(".menu__link").css("color","#b5b5b5");
                 $(".menu__link").css("z-index","10000000000");
                 $(".menu__shylock").css("top","-30px");
+                $("#switch").css("color","black");
 
 
 
@@ -27,6 +28,7 @@
                     $("#LogoImage").css("width","210px");
                     $("#LogoImage").css("height","120px");
                     $(".menu__link").css("color","white");
+                    $("#switch").css("color","black");
 
 
 

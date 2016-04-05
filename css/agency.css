@@ -26,17 +26,17 @@ strong{
 
 @font-face {
     font-family: Avenir;
-    src: url("fonts/AvenirNext.otf");
+    src: url("font-awesome/AvenirNext.otf");
 }
 
 @font-face {
     font-family: AvenirLight;
-    src: url("fonts/AvenirNextLight.otf");
+    src: url("font-awesome/AvenirNextLight.otf");
 }
 
 @font-face {
     font-family: AvenirBold;
-    src: url("fonts/AvenirNextBold.otf");
+    src: url("font-awesome/AvenirNextBold.otf");
 }
 
  header.smaller {
@@ -480,9 +480,14 @@ section.module.parallax {
 
 
 #switch{
-padding-left:90%; 
-padding-top:5.8%; 
-position:absolute;
+padding-left: 73%;
+padding-top: 1.5%;
+position: absolute;
+
+a:link {
+    color: black;
+}
+
 }
 
 /*------Logo--------*/
@@ -607,7 +612,7 @@ position:absolute;
     position: relative;
     bottom: 0%;
     left: 0%;
-    height: 100%;
+    height: 90%;
     width: 100%;
     overflow: hidden;
     background: #000;
@@ -660,7 +665,7 @@ outline:0;
 }
 
 a{
-color:#fed136;
+/*color:#fed136;*/
 }
 
 a:hover,a:focus,a:active,a.active{
