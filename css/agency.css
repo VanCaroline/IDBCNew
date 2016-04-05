@@ -39,6 +39,7 @@ strong{
     src: url("font-awesome/AvenirNextBold.otf");
 }
 
+#services{padding-top:10px;}
 
  header.smaller {
     height: 75px;
@@ -1139,6 +1140,8 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
 @media (max-width:480px){
 
+#services{padding-top:110%;}
+
 #head-startups{font-size:22px;}
 
 #iconbis{margin-bottom: 10%;}
@@ -1150,7 +1153,7 @@ position: absolute;
 }
 
 #row-method{
-width:30%;
+width:40%;
 }
 
 
@@ -1170,7 +1173,7 @@ width:30%;
     left: -20%;
 }
 
-#getintouch{left: 9%; width: 80%; top:-10px;}
+#getintouch{left: 6%; width: 80%; top:-10px;}
 
 #dev{left:0%;}
  
