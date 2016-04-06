@@ -1185,7 +1185,7 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
 #botones{width:60%;}
 
-#container-toggle{margin-right: 10%;}
+#container-toggle{margin-right: 2%;}
 
 .homepage-hero-module{display:none;}
 
@@ -1206,7 +1206,7 @@ video-container{display:none;}
 #iconbis{margin-bottom: 10%;}
 
 #switch{
-padding-left: 81%;
+padding-left: 79%;
 padding-top: 3.5%;
 position: absolute;
 }
@@ -1223,7 +1223,10 @@ width:40%;
     left: -35%;
 }
 
-#Enviar{margin-top: 1%; margin-left: 8%}
+#Enviar {
+    margin-top: 1%;
+    margin-left: 0%;
+}
 
 #team{background-color: #004F76;}
 
@@ -1231,7 +1234,7 @@ width:40%;
     left: -20%;
 }
 
-#getintouch{left: 6%; width: 80%; top:-10px;}
+#getintouch{left: 2%; width: 80%; top:-10px;}
 
 #dev{left:0%;}
  
