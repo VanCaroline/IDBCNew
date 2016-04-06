@@ -1160,7 +1160,14 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
 @media (max-width:480px){
 
-#services{padding-top:110%;}
+#services{
+    padding-top: 25% !important;
+}
+
+video-container{display:none;}
+.menu--shylock2{display: none;}
+
+#LogoImage{ display: none;}
 
 #head-startups{font-size:22px;}
 
@@ -1177,7 +1184,7 @@ width:40%;
 }
 
 
-#bar1{visibility: hidden;}
+#bar1{visibility: hidden; display: none;}
 
 #metodo {
     width: 10%;
