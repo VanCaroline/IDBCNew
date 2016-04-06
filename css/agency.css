@@ -797,6 +797,9 @@ height: 0px ;
 
 @media (min-width:992px){
 
+#foot{height:50%;}
+
+
 #First-Set{float: left; width: 50%;}
 
 #Line{height:0px;}
@@ -1087,6 +1090,9 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 */
 
 @media (max-width:768px){
+
+#foot{height:30%;}
+
 #services{padding-top:110%;}
 
 
@@ -1159,6 +1165,9 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
 
 @media (max-width:480px){
+
+
+#foot{height:30%;}
 
 #services{
     padding-top: 25% !important;
