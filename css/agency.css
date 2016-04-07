@@ -797,6 +797,10 @@ height: 0px ;
 
 @media (min-width:992px){
 
+#botones{width:100%;}
+
+#foot{height:50%;}
+
 #First-Set{float: left; width: 50%;}
 
 #Line{height:0px;}
@@ -1040,6 +1044,9 @@ body{webkit-tap-highlight-color:#fed136}
 
 @media (max-width:992px){
 
+
+.homepage-hero-module{display:none;}
+
 header{ background-image:url('../img/space.jpg');}
 
 header .intro-text{padding-top:300px;padding-bottom:200px}
@@ -1087,7 +1094,18 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 */
 
 @media (max-width:768px){
-#services{padding-top:110%;}
+
+#foot{height:30%;}
+
+.homepage-hero-module{display:none;}
+
+#LogoImage{display:none;}
+
+#services{
+    padding-top: 150% !important;
+}
+
+.menu--shylock2{display:none;}
 
 
 #head-startups{font-size:22px;}
@@ -1115,15 +1133,18 @@ width:40%;
     left: -35%;
 }
 
-#Enviar{margin-top: 1%; margin-left: 8%}
+#Enviar {
+    margin-top: 1%;
+    margin-left: 0%;
+}
 
 #team{background-color: #004F76;}
 
 #aplica {
-    left: -20%;
+    left: -10%;
 }
 
-#getintouch{left: 6%; width: 80%; top:-10px;}
+#getintouch{left: -6%; width: 80%; top:-10px;}
 
 #dev{left:0%;}
  
@@ -1132,6 +1153,8 @@ width:40%;
 Footer{
 height:100px;
 }
+
+#somos{display: none;}
 
 #ev2{  
 left: 112%;
@@ -1160,11 +1183,20 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
 @media (max-width:480px){
 
+#botones{width:60%;}
+
+#container-toggle{margin-right: 2%;}
+
+.homepage-hero-module{display:none;}
+
+#foot{height:30%;}
+
 #services{
-    padding-top: 25% !important;
+    padding-top: 310% !important;
 }
 
 video-container{display:none;}
+
 .menu--shylock2{display: none;}
 
 #LogoImage{ display: none;}
@@ -1174,7 +1206,7 @@ video-container{display:none;}
 #iconbis{margin-bottom: 10%;}
 
 #switch{
-padding-left: 81%;
+padding-left: 79%;
 padding-top: 3.5%;
 position: absolute;
 }
@@ -1191,7 +1223,10 @@ width:40%;
     left: -35%;
 }
 
-#Enviar{margin-top: 1%; margin-left: 8%}
+#Enviar {
+    margin-top: 1%;
+    margin-left: 0%;
+}
 
 #team{background-color: #004F76;}
 
@@ -1199,7 +1234,7 @@ width:40%;
     left: -20%;
 }
 
-#getintouch{left: 6%; width: 80%; top:-10px;}
+#getintouch{left: 2%; width: 80%; top:-10px;}
 
 #dev{left:0%;}
  
@@ -1215,6 +1250,7 @@ float: left;}
 
 #Eye{width:25%;}
 
+
 #moduloparallax{background-image:none; background-color: #004f76;}
 
 #portfolio{background-image:url('../img/gray.jpg');}
@@ -1223,12 +1259,50 @@ header{ background-image:url('../img/mobilespace.jpg');}
 
 header .intro-text{padding-top:300px;padding-bottom:200px}
 
-header .intro-text .intro-lead-in{font-family:"Avenir",Helvetica,Arial,sans-serif;font-size:42px;line-height:40px;margin-bottom:25px; padding-left: 6%;}
+header .intro-text .intro-lead-in{font-family:"Avenir",Helvetica,Arial,sans-serif;font-size:30px;line-height:40px;margin-bottom:25px; padding-left: 6%;}
 
-header .intro-text .intro-heading{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:100;font-size:42px; padding-left:-10%; line-height:75px;margin-bottom:50px}
+header .intro-text .intro-heading{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:100;font-size:30px; padding-left:-10%; line-height:75px;margin-bottom:50px;margin-left: -21%;}
 
-header .intro-text .intro-heading2{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:12px;line-height:75px;margin-bottom:50px; float:left;}
+header .intro-text .intro-heading2{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:12px;line-height:75px;margin-bottom:50px; float:left;margin-left: -10%;}
 
-header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:12px;line-height:75px;margin-bottom:50px; position:relative;}
+header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:12px;line-height:75px;margin-bottom:50px; position:relative; margin-left: 2%;}
 
 #WordsChange{font-size:16px;}}
+
+@media (max-width:320px){
+#botones{width:60%;}
+
+#switch{
+padding-left: 70%;
+padding-top: 3.5%;
+position: absolute;
+}
+
+section h2.section-heading {
+    font-size: 52px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+#botones{
+    width: 100%;
+}
+
+#Enviar{margin-left: 0%}
+}
+
+#getintouch {
+    left: -6%;}
+
+header{ background-image:url('../img/mobilespace.jpg');}
+
+header .intro-text{padding-top:300px;padding-bottom:200px}
+
+header .intro-text .intro-lead-in{font-family:"Avenir",Helvetica,Arial,sans-serif;font-size:30px;line-height:40px;margin-bottom:25px; padding-left: 6%;}
+
+header .intro-text .intro-heading{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:100;font-size:30px; padding-left:-10%; line-height:75px;margin-bottom:50px;margin-left: -21%;}
+
+header .intro-text .intro-heading2{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:12px;line-height:75px;margin-bottom:50px; float:left;margin-left: -19%;}
+
+header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:12px;line-height:75px;margin-bottom:50px; position:relative; margin-left: 2%;}
+
+}
