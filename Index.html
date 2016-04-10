@@ -5,7 +5,6 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width; initial-scale = 1.0; maximum-scale=1.0; user-scalable=no" />
@@ -44,8 +43,10 @@
 </div>
 
 
+
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
+         <img id="BrandLogo" src="img/Logo.png" alt="Logo" style="left: 5%;"></img>
         <div id="container-toggle" class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -61,23 +62,25 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul id="toggle" class="nav navbar-nav">
-		      
-		      <li class="active"><a href="header" class="menu__link" style="color:white;">Inicio</a></li>
-		      <li><a  href="#services" class="menu__link">Servicios</a></li>
-		      <li><a href="#portfolio" class="menu__link">Metodología</a></li>
-		      <li><a href="#team" class="menu__link">Nosotros</a></li>
-		      <li><a href="#contact" class="menu__link">Contáctanos</a></li>
+
+                 <li id="lang"><p><a href="http://www.idbcgroup.com/test/index.html"><strong style="color:white;">ESP</strong></a><a href="http://www.idbcgroup.com/test/en/index.html">/EN</a></p></li>
+              
+              <li class="active"><a href="" class="menu__link" style="color:white;">Inicio</a></li>
+              <li><a  href="#Unities" class="menu__link">Servicios</a></li>
+              <li><a href="#method" class="menu__link">Metodología</a></li>
+              <li><a href="#team" class="menu__link">Nosotros</a></li>
+              <li><a href="#contact" class="menu__link">Contáctanos</a></li>
 
 
-			</ul>
-			</div>
+            </ul>
+            </div>
 
-            	
+                
         
 
                   <!--Language switch-->
         
-          <div id="switch"><p id="language"><a style="color:black;" href="http://www.idbcgroup.com/test/en/index.html">EN/</a><strong style="color:black;">ES</strong></p></div>
+          <div id="switch"><p id="language"><a style="color:black;" href="http://www.idbcgroup.com/test/en/index.html">EN/</a><strong style="color:black;">ESP</strong></p></div>
               
               <img id="LogoImage" src="img/Logo.png" alt="Logo" style="left: 5%;"></img>
 
@@ -88,13 +91,14 @@
 
             <li class="menu__item menu__item--current"><a href="header" class="menu__link page-scroll" style="color:white;">Inicio</a></li>
             <li class="menu__item"><a  href="#services" class="menu__link page-scroll">Servicios</a></li>
-            <li class="menu__item"><a href="#portfolio" class="menu__link page-scroll">Metodología</a></li>
+            <li class="menu__item"><a href="#method" class="menu__link page-scroll">Metodología</a></li>
             <li class="menu__item"><a href="#team" class="menu__link page-scroll">Nosotros</a></li>
             <li class="menu__item"><a href="#contact" class="menu__link page-scroll">Contáctanos</a></li>
           </ul>
 
 
-	</nav>
+    </nav>
+
 
 
 
@@ -119,7 +123,7 @@
 
         <div class="container">
 
-       <div class="row">
+       <div class="row" id="heading">
           <div class="col-lg-12 text-center">
             <div class="intro-text" style="display:inline-block;">
                 <div class="intro-lead-in" style="float:left;">SERVICIOS Y &nbsp; </div>
@@ -128,7 +132,8 @@
                 <div class="intro-heading2" style="float:left;">DE ALTO IMPACTO PARA</div>
                 <div class="intro-heading2" style="float:left;"> &nbsp; </div>
                 <div class="intro-heading3" style="float:left;">
-                <div class=" rw-words-1">   
+                
+                <div id="WordsChangeDesktop" class=" rw-words-1">   
                     <span id="WordsChange"> EMPRENDEDORES</span>
                     <span id="WordsChange"> CORPORACIONES</span>
                     <span id="WordsChange"> COMUNIDADES</span>
@@ -136,13 +141,26 @@
                     <span id="WordsChange"> COMUNIDADES</span>
                     <span id="WordsChange"> </span>
                     <span id="WordsChange"> </span>
-                  </div></div>
+                  </div>
+
+                
+                <div id="WordsChangeMobile" class=" rw-words-1">   
+                    <span id="WordsChange"> EMPRENDEDORES</span>
+                    <span id="WordsChange"> CORPORACIONES</span>
+                    <span id="WordsChange"> COMUNIDADES</span>
+                    <span id="WordsChange"> EMPRENDEDORES</span>
+                    <span id="WordsChange"> COMUNIDADES</span>
+                    <span id="WordsChange"> </span>
+                    <span id="WordsChange"> </span>
+                </div>
+              </div>
+            </div>
             </div>  
 
                  
          </div>
 
-                <a href="#services" class="page-scroll"><img src="img/arrow.png" style="width:8%;"></img></a>  
+                <a href="#services" class="page-scroll"><img id="arrow" src="img/arrow.png" style="width:8%;"></img></a>  
 
         </div>
         </div>
@@ -157,25 +175,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Unidades <span style="font-weight:700">de</span> Negocio</h2>
+                    <h2 id="Unities" class="section-heading">Unidades <span style="font-weight:700">de</span> Negocio</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
 
             <div class="row text-center" id="First-Set">
                 
-                 <h3 class="section-heading" style="font-size:35px; color:#a0a7ab;margin-bottom:55px;">desarrollo de tecnología</h3>
+                 <h3 id="techdev" class="section-heading">desarrollo de tecnología</h3>
 
                 <div class="col-md-4">
-                   <img id="iconbis" src="img/Image01.png" style="margin-bottom: 30%;"></img>
+                   <img id="iconbis" src="img/Image01.png"></img>
                 </div>
 
                 <div class="col-md-4">
-                   <img id="iconbis"  src="img/Image02.png" style="margin-bottom: 30%;"></img>
+                   <img id="iconbis"  src="img/Image02.png"></img>
                 </div>
 
                 <div class="col-md-4">
-                   <img id="iconbis"  src="img/Image03.png" style="margin-bottom: 30%;"></img>
+                   <img id="iconbis"  src="img/Image03.png"></img>
                 </div>
 
                  <div class="col-md-4">
@@ -200,20 +218,20 @@
 
             <div class="row text-center" id="Second-Set">
                 
-                <h3 class="section-heading" style="font-size:35px; color:#a0a7ab;margin-bottom:55px;">estrategia de negocio</h3>
+                <h3 id="techdev" class="section-heading">estrategia de negocio</h3>
 
 
                 <div class="col-md-4">
-                     <img id="iconbis"  src="img/Image07.png" style="margin-bottom: 30%;"></img>
+                     <img id="iconbis"  src="img/Image07.png"></img>
         
                 </div>
 
                 <div class="col-md-4">
-                     <img id="iconbis"  src="img/Image08.png" style="margin-bottom: 30%;"></img>
+                     <img id="iconbis"  src="img/Image08.png"></img>
                 </div>
 
                 <div class="col-md-4">
-                     <img id="iconbis"  src="img/Image09.png" style="margin-bottom: 30%;"></img>
+                     <img id="iconbis"  src="img/Image09.png"></img>
                 </div>
 
                  <div class="col-md-4">
@@ -247,12 +265,12 @@
                
                   <div id="metodo" class="col-lg-12">
 
-                   <div class="col-md-4" style="float: left;"><button class="button button--ujarak2 button--border-medium button--round-s button--text-thick" style="background: #668127 !important; text-align:center;">1.&nbsp;Descubrimiento&nbsp;</button></div>
+                   <div class="col-md-4" style="float: left;"><button class="button button--ujarak2 button--border-medium button--round-s button--text-thick" style="background: #668127 !important; text-align:center;">1.&nbsp;Descubrimiento&nbsp;&nbsp;</button></div>
     <div class="col-md-4" style="float: left;"><button class="button button--ujarak2 button--border-medium button--round-s button--text-thick" style="background: #668127 !important;">2.&nbsp;Visuales&nbsp;&&nbsp;UX</button></div>
-    <div class="col-md-4" style="float: left;"><button id="dev" class="button button--ujarak2 button--border-medium button--round-s button--text-thick" style="background: #668127 !important;">&nbsp;3.&nbsp;&nbsp;Desarrollo&nbsp;&nbsp;&nbsp;</button></div>
-    <div class="col-md-4" style="float: left;"><button class="button button--ujarak2 button--border-medium button--round-s button--text-thick" style="background: #668127 !important;">4.&nbsp;Implementación&nbsp;</button></div>
-    <div id="soporte" class="col-md-offset-4"><button id="sop" class="button button--ujarak2 button--border-medium button--round-s button--text-thick" style="background: #668127 !important;">&nbsp;&nbsp;&nbsp;5.&nbsp;Soporte&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></div>
-    <div id="ev" class="col-md-4"><button id="ev2" class="button button--ujarak2 button--border-medium button--round-s button--text-thick" style="background: #668127 !important;">&nbsp;6.&nbsp;Evolución&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></div>
+    <div class="col-md-4" style="float: left;"><button id="dev" class="button button--ujarak2 button--border-medium button--round-s button--text-thick" style="background: #668127 !important;">&nbsp;&nbsp;3.&nbsp;Desarrollo&nbsp;&nbsp;&nbsp;</button></div>
+    <div class="col-md-4" style="float: left;"><button class="button button--ujarak2 button--border-medium button--round-s button--text-thick" style="background: #668127 !important;">4.Implementación&nbsp;&nbsp;&nbsp;&nbsp;</button></div>
+    <div id="soporte" class="col-md-offset-4"><button id="sop" class="button button--ujarak2 button--border-medium button--round-s button--text-thick" style="background: #668127 !important;">&nbsp;&nbsp;&nbsp;&nbsp;5.&nbsp;Soporte&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></div>
+    <div id="ev" class="col-md-4"><button id="ev2" class="button button--ujarak2 button--border-medium button--round-s button--text-thick" style="background: #668127 !important;">&nbsp;&nbsp;6.&nbsp;Evolución&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></div>
 </div>
 
             </div>
@@ -265,7 +283,7 @@
         <div class="container" id="startups">
             <div class="row">
                 <div class="team-member">
-                     <img src="img/Rocket.png" align="middle" style="border:0px;"></img>
+                     <img id="rocket" src="img/Rocket.png" align="middle" style="border:0px;"></img>
                 </div>
 
                 <div class="col-lg-12 text-center" style="text-align: justify;">
@@ -280,7 +298,7 @@
 <section id="moduloparallax" class="module parallax"> <!--Who We Are Parallax Effect-->
 
     <!-- Team Section -->
-    <section id="team" class="" style="padding: 100px 0;">
+    <section id="team">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -321,7 +339,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted" style="color:white; font-size:26px; line-height: 34px;">Con una amplia cartera de clientes desde<br><span style="font-weight:700;">Particulares / Corporativos / Emprendedores</span><br> Nuestra meta es abarcar los diversos mercados existentes<br>y lograr diversidad de soluciones tecnológicas</p>
+                    <p id="Team-paragraph" class="large text-muted">Con una amplia cartera de clientes desde<br><span style="font-weight:700;">Particulares / Corporativos / Emprendedores</span><br> Nuestra meta es abarcar los diversos mercados existentes<br>y lograr diversidad de soluciones tecnológicas</p>
                 </div>
             </div>
         </div>
@@ -329,11 +347,11 @@
 
 
       <!-- Portfolio Grid Section -->
-    <section class="bg-light-gray" style="background-color:#BE641E;">
+    <section id="TeamSection" class="bg-light-gray" style="background-color:#BE641E;">
         <div class="container">
             <div class="row text-center">
                 <div class="team-member">
-                     <img src="img/coffee.png" align="middle" style="border:0px;"></img>
+                     <img id="coffee" src="img/coffee.png" align="middle" style="border:0px;"></img>
                 </div>
 
               <div class="row">
@@ -361,18 +379,18 @@
 
     
     <!-- Contact Section -->
-    <section id="contact" style="padding-top: 0%">
+    <section id="contact" style="padding-top: 5%">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contáctanos</h2>
+
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                         <div class="row">
                             <div id="getintouch" class="col-md-4">
-                                <img src="img/Getintouch.jpg" style=""></img>
+                                <img id="imgcontact" src="img/Getintouch.jpg" style=""></img>
                                 <h4 id="somos" style="font-size:22px; float:left; padding-left:25%;">Somos parte de</h4>
                                 <a href="http://www.avilaholding.com"><img id="avila" src="img/AvilaHolding.png" style="float:left; padding-left:20%; width:70%;"></img></a>
                             </div>
@@ -425,7 +443,7 @@
                 <div class="team-member" style="margin-top:-13%;">
                         <div class="col-md-12">
                     <ul class="list-inline social-buttons">
-                        <a href="header" class="page-scroll"><img src="img/arrow2.png" style="width:8%;"></img></a>
+                        <a href="header" class="page-scroll"><img src="img/arrow2.png" style="width:8%; margin-top:5%;"></img></a>
                         </li>
                     </ul>
                 </div>
@@ -482,7 +500,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <span class="copyright" style="color:#808080; font-size:20px; line-height:25px;"><span style="font-weight:700;">IDBC Group 2008-2016</span><br>Todos los derechos reservados ®</span>
+                    <span class="copyright" style="color:#808080; font-size:19px; line-height:25px;"><span style="font-weight:700;">IDBC Group 2008-2016</span><br>Todos los derechos reservados ®</span>
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@
                 header = document.querySelector("header"),
                 ancho=$(window).width();
             
-            if (ancho>768){
+            if (ancho>760){
 
 
 
