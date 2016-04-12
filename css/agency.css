@@ -636,33 +636,9 @@ position:absolute;
 .touch .video-container .poster {
     display: block !important;
 }
-.video-container {
-    position: relative;
-    bottom: 0%;
-    left: 0%;
-    height: 90%;
-    width: 100%;
-    overflow: hidden;
-    background: #000;
-}
-.video-container .poster img {
-    width: 100%;
-    bottom: 0;
-    position: absolute;
-}
-.video-container .filter {
-    z-index: 100;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-}
-.video-container video {
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-}
-.video-container video.fillWidth {
-    width: 100%;
+video{
+  width:100%;
+  height:100%;
 }
 
 /*----------------------*/
@@ -672,7 +648,11 @@ position:absolute;
 body{
 overflow-x:hidden;
 font-family:"Avenir",Helvetica,Arial,sans-serif
+width:100%;
+height:100%;
 }
+
+html{width:100%;height:100%; }
 
 .text-muted{
 color:#777
@@ -844,7 +824,7 @@ position: absolute;
 top: 5%;
 padding-left: 15%}
 
-header .intro-text{padding-top: 400px;padding-bottom:50px;}
+header .intro-text{padding-top: 400px;padding-bottom:50px; position: relative;}
 
 header .intro-text .intro-lead-in{font-family:"Avenir",Helvetica,sans-serif;font-size:68px;line-height:40px;margin-bottom: 45px;}
 
