@@ -874,14 +874,22 @@ section h3.section-subheading{font-size:25px;font-family:"Avenir",Helvetica,Aria
 
 @media (min-width: 768px) and (max-width:992px){
 
-#LogoImage {
-    width: 15% !important;
-    height: 120% !important;
+.navbar-default.navbar-shrink {
+    background-color: #fff;
+    opacity: 0.97;
+    padding: 0px 0;
 }
+
+#LogoImage {
+    width: 13% !important;
+    height: 100% !important;
+}
+
+.smaller{display:none;}
 
 #BrandLogo{display: none;}
 
-#bs-example-navbar-collapse-1{display:none; height:0px;}
+#bs-example-navbar-collapse-1{display:none;}
 
 #toggle{display:none;}
 
@@ -1263,6 +1271,57 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
 @media (min-width:480px) and (max-width:768px){
 
+.navbar-toggle {
+    margin-bottom: 40px;
+}
+
+#lang{left:2%;}
+
+  header .intro-text .intro-lead-in {
+    font-family: "Avenir",Helvetica,Arial,sans-serif;
+    font-size: 68px;
+    line-height: 40px;
+    margin-bottom: 25px;
+    padding-left: 2%;
+}
+
+header .intro-text .intro-heading {
+    font-family: "Avenir",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 68px;
+    line-height: 75px;
+    margin-bottom: 0px;
+    margin-left: -19%;
+}
+
+header .intro-text .intro-heading2 {
+    font-family: "Avenir",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 75px;
+    margin-bottom: 0px;
+    float: left;
+    margin-left: 4%;
+}
+
+header .intro-text .intro-heading3 {
+    font-family: "Avenir",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 75px;
+    margin-bottom: 0px;
+    position: relative;
+    padding-top: 25%;
+    left: -70%;
+}
+
+  #Enviar{margin-top:15%;}
+
+  #somos{display: none;}
+
   #LogoImage{display:none;}
 
   .menu--shylock{display:none;}
@@ -1277,11 +1336,11 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
   #arrow{display:none;}
 
-  #botones{width:10%;}
+  #botones{width:10%; padding-left:7%;}
 
   #sop{left:6%;}
 
-  #ev2{left:100%;}
+  #ev2{left:113%;}
 
   #getintouch{left:20%;}
 
@@ -1289,15 +1348,10 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
   #Eye{width:22%;}
 
-  #team{background-color: #015077;}
+#moduloparallax{background-image:none; background-color: #004f76;}
 
-  header .intro-text{/*padding-top:300px;padding-bottom:200px*/}
+#team{background-color: #004f76;}
 
-header .intro-text .intro-heading{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:100;font-size:68px;line-height:75px;margin-bottom:0px;float;left;}
-
-header .intro-text .intro-heading2{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:32px;line-height:75px;margin-bottom:0px; float:left;}
-
-header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:32px;line-height:75px;margin-bottom:0px; position:relative;}
 }
 
 @media (max-width:480px){

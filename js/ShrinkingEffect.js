@@ -11,7 +11,7 @@
 
 
             if (distanceY > shrinkOn) {
-                classie.add(header,"smaller");
+                
                 $( "#bar1" ).css("background-color", "white");
                 $("#LogoImage").attr("src", "img/LogoBlue.png");
                 $("#LogoImage").css("z-index", "10000000000");
@@ -28,8 +28,8 @@
 
 
             } else {
-                if (classie.has(header,"smaller")) {
-                    classie.remove(header,"smaller");
+               {
+                  
                     $( "#bar1" ).css("background-color", "transparent");
                     $("#LogoImage").attr("src", "img/Logo.png");
                     $("#LogoImage").css("width","210px");
