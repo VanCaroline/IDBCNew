@@ -772,6 +772,8 @@ color:#fff;background-color:#004F76;border-color:#004F76}
 
 @media (min-width:768px){
 
+#BrandLogo{display:none;}
+
 #WordsChangeMobile{display:none;}
 
 #toggle{
@@ -835,7 +837,8 @@ header .intro-text .intro-heading{font-family:"Avenir",Helvetica,sans-serif;text
 
 header .intro-text .intro-heading2{font-family:"Avenir",Helvetica,sans-serif;text-transform:uppercase;font-weight:700;font-size:42px;line-height:75px;margin-bottom:50px; position:relative;}
 
-header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,sans-serif;text-transform:uppercase;font-weight:700;font-size:42px;line-height:75px;margin-bottom:50px; position:relative;}}
+header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,sans-serif;text-transform:uppercase;font-weight:700;font-size:42px;line-height:75px;margin-bottom:50px; position:relative;}
+}
 
 @media (min-width:768px){
 
@@ -854,6 +857,7 @@ section{padding:100px 0}
 section h2.section-heading{font-size:58px;margin-top:0;margin-bottom:15px}
 
 section h3.section-subheading{font-size:25px;font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:none;font-weight:400;margin-bottom:75px}
+}
 
 @media (min-width: 768px) and (max-width:992px){
 
@@ -972,6 +976,8 @@ header{ top: 0%; background-image:url('../img/mobilespace.png');}
 
 #portfolio *{z-index:2}
 
+}
+
 @media (min-width:767px){
 
 #portfolio .portfolio-item{margin:0 0 30px}}
@@ -1007,6 +1013,7 @@ header{ top: 0%; background-image:url('../img/mobilespace.png');}
 .timeline .timeline-heading h4.subheading{text-transform:none}
 
 .timeline .timeline-body>p,.timeline .timeline-body>ul{margin-bottom:0}
+}
 
 @media (min-width:768px){
 
@@ -1133,6 +1140,7 @@ img::selection{background:0 0}
 img::-moz-selection{background:0 0}
 
 body{webkit-tap-highlight-color:#004F76}
+}
 
 @media (min-width:992px) and (max-width:1200px){
 
