@@ -621,7 +621,8 @@ position:absolute;
 
 #ev{float:right;}
 
-/*--video--*/
+
+/*--video--
 
 .homepage-hero-module {
     border-right: none;
@@ -641,7 +642,9 @@ video{
   height:100%;
 }
 
-/*----------------------*/
+
+
+----------------------*/
 
 #method{background-color:#84B73F;}
 
