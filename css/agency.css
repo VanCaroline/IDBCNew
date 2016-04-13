@@ -888,7 +888,7 @@ container-toggle{display: none;}
 .menu--shylock2{display:none;}
 
 #services {
-    padding-top: 130% !important;
+    padding-top: 130%;
 }
 
 #foot {
@@ -1134,6 +1134,18 @@ img::-moz-selection{background:0 0}
 
 body{webkit-tap-highlight-color:#004F76}
 
+@media (min-width:992px) and (max-width:1200px){
+
+  #botones{width:100%;}
+
+  #sop{left:-8%;}
+
+  #ev2{left: -8%;}
+
+  #ev{margin-right: -2.7%;}
+}
+
+
 @media (max-width:992px){
 
 .homepage-hero-module{display:none;}
@@ -1150,39 +1162,10 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
 #WordsChange{font-size:32px;}}
 
-/*@media (max-width:992px){
-
-#navbar{
-  display: none;
-}
-#ok{ visibility: hidden;}
-
-#LogoImage{visibility: hidden;}
-
-#Line{visibility: hidden;}
-
-#iconbis{margin-bottom: 30%;}
-
-#Eye{width:30%;}
-
-#team{background-color: #BE641E;}
-
-#aplica{left:-8%;}
-
-#metodo{width: 41.5%;left:15%;}
-
-#dev{left:6%;}
-
-#ev{left:-3%;}
-
-#getintouch{left:-20%; top:-30%;margin-bottom:10%;}
-
-#somos{visibility:hidden;}
-
-#enviar{margin-left:40%;}
-*/
 
 @media (max-width:768px){
+
+.header-video{display:none;}
 
 video-container{display: none;}
 
@@ -1254,6 +1237,12 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
 @media (min-width:480px) and (max-width:768px){
 
+.header-video__teaser-video{display:none;}
+
+video{display:none;}
+
+.header-video{display: none;}
+
 .navbar-toggle {
     margin-bottom: 40px;
 }
@@ -1315,7 +1304,7 @@ header .intro-text .intro-heading3 {
 
   header{ background-image:url('../img/mobilespace.png');}
 
-  #services{padding-top:180%!important;}
+  #services{padding-top:180%;}
 
   #arrow{display:none;}
 
@@ -1338,6 +1327,14 @@ header .intro-text .intro-heading3 {
 }
 
 @media (max-width:480px){
+
+
+.header-video__teaser-video{display:none;}
+
+video{display:none;}
+
+.header-video{display: none;}
+
 
 #Team-paragraph{font-size:22px;}
 
@@ -1399,7 +1396,7 @@ section#contact .form-group textarea.form-control{
 #foot{height:40%;}
 
 #services{
-    padding-top: 210% !important;
+    padding-top: 210%;
 }
 
 video-container{display:none;}
@@ -1486,6 +1483,13 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
 @media (max-width:320px){
 
+
+.header-video__teaser-video{display:none;}
+
+video{display:none;}
+
+.header-video{display: none;}
+
 #imgcontact {
     width: 80%;
     margin-top: 30%;
@@ -1498,7 +1502,7 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 }
 
 #services{
-    padding-top: 250% !important;
+    padding-top: 250%;
 }
 
 #switch{
