@@ -621,10 +621,27 @@ position:absolute;
 
 #ev{float:right;}
 
+/*--video--*/
 
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+video{
+  width:100%;
+  height:100%;
+}
 
-
-----------------------*/
+/*----------------------*/
 
 #method{background-color:#84B73F;}
 
@@ -752,8 +769,6 @@ color:#fff;background-color:#004F76;border-color:#004F76}
 
 @media (min-width:768px){
 
-#BrandLogo{display:none;}
-
 #WordsChangeMobile{display:none;}
 
 #toggle{
@@ -809,16 +824,15 @@ position: absolute;
 top: 5%;
 padding-left: 15%}
 
-header .intro-text{padding-top: 400px;padding-bottom:50px; position: relative;}
+header .intro-text{padding-top: 300px;padding-bottom:50px; position: relative;}
 
-header .intro-text .intro-lead-in{font-family:"Avenir",Helvetica,sans-serif;font-size:68px;line-height:40px;margin-bottom: 45px;}
+header .intro-text .intro-lead-in{font-family:"Avenir",Helvetica,sans-serif;font-size:68px;line-height:40px;margin-bottom: 45px; position:relative;}
 
-header .intro-text .intro-heading{font-family:"Avenir",Helvetica,sans-serif;text-transform:uppercase;font-weight:100;font-size:75px;line-height:75px;margin-bottom:20px}
+header .intro-text .intro-heading{font-family:"Avenir",Helvetica,sans-serif;text-transform:uppercase;font-weight:100;font-size:75px;line-height:75px;margin-bottom:20px; position:relative;}
 
 header .intro-text .intro-heading2{font-family:"Avenir",Helvetica,sans-serif;text-transform:uppercase;font-weight:700;font-size:42px;line-height:75px;margin-bottom:50px; position:relative;}
 
-header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,sans-serif;text-transform:uppercase;font-weight:700;font-size:42px;line-height:75px;margin-bottom:50px; position:relative;}
-}
+header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,sans-serif;text-transform:uppercase;font-weight:700;font-size:42px;line-height:75px;margin-bottom:50px; position:relative;}}
 
 @media (min-width:768px){
 
@@ -837,9 +851,8 @@ section{padding:100px 0}
 section h2.section-heading{font-size:58px;margin-top:0;margin-bottom:15px}
 
 section h3.section-subheading{font-size:25px;font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:none;font-weight:400;margin-bottom:75px}
-}
 
-@media (min-width: 768px) and (max-width:992px){
+@media (min-width: 767px) and (max-width:992px){
 
 .navbar-default.navbar-shrink {
     background-color: #fff;
@@ -872,7 +885,7 @@ container-toggle{display: none;}
 .menu--shylock2{display:none;}
 
 #services {
-    padding-top: 130%;
+    padding-top: 90%!important;
 }
 
 #foot {
@@ -956,8 +969,6 @@ header{ top: 0%; background-image:url('../img/mobilespace.png');}
 
 #portfolio *{z-index:2}
 
-}
-
 @media (min-width:767px){
 
 #portfolio .portfolio-item{margin:0 0 30px}}
@@ -993,7 +1004,6 @@ header{ top: 0%; background-image:url('../img/mobilespace.png');}
 .timeline .timeline-heading h4.subheading{text-transform:none}
 
 .timeline .timeline-body>p,.timeline .timeline-body>ul{margin-bottom:0}
-}
 
 @media (min-width:768px){
 
@@ -1120,7 +1130,29 @@ img::selection{background:0 0}
 img::-moz-selection{background:0 0}
 
 body{webkit-tap-highlight-color:#004F76}
-}
+
+@media (max-width:992px){
+
+.header-video{display:none;}
+
+.header-video .header-video__media{display:none;}
+
+.header-video .header-video__teaser-video{display:none;}
+
+video{display:none;}
+
+header .intro-text{padding-top:300px;padding-bottom:200px}
+
+header .intro-text .intro-lead-in{font-family:"Avenir",Helvetica,Arial,sans-serif;font-size:48px;line-height:40px;margin-bottom:25px; padding-left: 0%;}
+
+header .intro-text .intro-heading{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:100;font-size:48px;line-height:75px;margin-bottom:50px}
+
+header .intro-text .intro-heading2{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:28px;line-height:75px;margin-bottom:50px; float:left;}
+
+header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:28px;line-height:75px;margin-bottom:50px; position:relative;}
+
+#WordsChange{font-size:28px;}}
+
 
 @media (min-width:992px) and (max-width:1200px){
 
@@ -1131,29 +1163,61 @@ body{webkit-tap-highlight-color:#004F76}
   #ev2{left: -8%;}
 
   #ev{margin-right: -2.7%;}
+
+header .intro-text{padding-top:200px;padding-bottom:200px}
+
+header .intro-text .intro-lead-in{font-family:"Avenir",Helvetica,Arial,sans-serif;font-size:48px;line-height:40px;margin-bottom:25px; padding-left: 0%;}
+
+header .intro-text .intro-heading{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:100;font-size:48px;line-height:75px;margin-bottom:10px}
+
+header .intro-text .intro-heading2{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:28px;line-height:75px;margin-bottom:50px; float:left;}
+
+header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:28px;line-height:75px;margin-bottom:50px; position:relative;}
+
+#WordsChange{font-size:28px;}
+
+#okokok{left:20%; position:absolute;}
+
 }
 
 
-@media (max-width:992px){
+/*@media (max-width:992px){
 
-.homepage-hero-module{display:none;}
+#navbar{
+  display: none;
+}
+#ok{ visibility: hidden;}
 
-header .intro-text{padding-top:300px;padding-bottom:200px}
+#LogoImage{visibility: hidden;}
 
-header .intro-text .intro-lead-in{font-family:"Avenir",Helvetica,Arial,sans-serif;font-size:68px;line-height:40px;margin-bottom:25px; padding-left: 20%;}
+#Line{visibility: hidden;}
 
-header .intro-text .intro-heading{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:100;font-size:68px;line-height:75px;margin-bottom:50px}
+#iconbis{margin-bottom: 30%;}
 
-header .intro-text .intro-heading2{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:32px;line-height:75px;margin-bottom:50px; float:left;}
+#Eye{width:30%;}
 
-header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:32px;line-height:75px;margin-bottom:50px; position:relative;}
+#team{background-color: #BE641E;}
 
-#WordsChange{font-size:32px;}}
+#aplica{left:-8%;}
 
+#metodo{width: 41.5%;left:15%;}
+
+#dev{left:6%;}
+
+#ev{left:-3%;}
+
+#getintouch{left:-20%; top:-30%;margin-bottom:10%;}
+
+#somos{visibility:hidden;}
+
+#enviar{margin-left:40%;}
+*/
 
 @media (max-width:768px){
 
-.header-video{display:none;}
+video{
+ display:none;
+}
 
 video-container{display: none;}
 
@@ -1223,13 +1287,7 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
 #WordsChange{font-size:32px;}}
 
-@media (min-width:480px) and (max-width:768px){
-
-.header-video__teaser-video{display:none;}
-
-video{display:none;}
-
-.header-video{display: none;}
+@media (min-width:480px) and (max-width:767px){
 
 .navbar-toggle {
     margin-bottom: 40px;
@@ -1239,7 +1297,7 @@ video{display:none;}
 
   header .intro-text .intro-lead-in {
     font-family: "Avenir",Helvetica,Arial,sans-serif;
-    font-size: 68px;
+    font-size: 48px;
     line-height: 40px;
     margin-bottom: 25px;
     padding-left: 2%;
@@ -1249,7 +1307,7 @@ header .intro-text .intro-heading {
     font-family: "Avenir",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     font-weight: 100;
-    font-size: 68px;
+    font-size: 48px;
     line-height: 75px;
     margin-bottom: 0px;
     margin-left: -19%;
@@ -1259,7 +1317,7 @@ header .intro-text .intro-heading2 {
     font-family: "Avenir",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 75px;
     margin-bottom: 0px;
     float: left;
@@ -1270,7 +1328,7 @@ header .intro-text .intro-heading3 {
     font-family: "Avenir",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 75px;
     margin-bottom: 0px;
     position: relative;
@@ -1292,7 +1350,7 @@ header .intro-text .intro-heading3 {
 
   header{ background-image:url('../img/mobilespace.png');}
 
-  #services{padding-top:180%;}
+  #services{padding-top:130% !important}
 
   #arrow{display:none;}
 
@@ -1315,14 +1373,6 @@ header .intro-text .intro-heading3 {
 }
 
 @media (max-width:480px){
-
-
-.header-video__teaser-video{display:none;}
-
-video{display:none;}
-
-.header-video{display: none;}
-
 
 #Team-paragraph{font-size:22px;}
 
@@ -1384,7 +1434,7 @@ section#contact .form-group textarea.form-control{
 #foot{height:40%;}
 
 #services{
-    padding-top: 210%;
+    padding-top: 170% !important;
 }
 
 video-container{display:none;}
@@ -1471,13 +1521,6 @@ header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-ser
 
 @media (max-width:320px){
 
-
-.header-video__teaser-video{display:none;}
-
-video{display:none;}
-
-.header-video{display: none;}
-
 #imgcontact {
     width: 80%;
     margin-top: 30%;
@@ -1528,4 +1571,11 @@ header .intro-text .intro-heading2{font-family:"Avenir",Helvetica,Arial,sans-ser
 header .intro-text .intro-heading3{font-family:"Avenir",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:12px;line-height:75px;margin-bottom:0px; position:absolute; margin-left: 2%;top:65%;left: 27%;}
 
 
+}
+
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
 }
