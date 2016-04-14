@@ -622,26 +622,6 @@ position:absolute;
 #ev{float:right;}
 
 
-/*--video--
-
-.homepage-hero-module {
-    border-right: none;
-    border-left: none;
-    position: relative;
-}
-.no-video .video-container video,
-.touch .video-container video {
-    display: none;
-}
-.no-video .video-container .poster,
-.touch .video-container .poster {
-    display: block !important;
-}
-video{
-  width:100%;
-  height:100%;
-}
-
 
 
 ----------------------*/
