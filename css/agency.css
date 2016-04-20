@@ -20,7 +20,7 @@ font-family: "Avenir", Helvetica, sans serif;
 }
 
 strong{
-  font-family: "AvenirBold", Helvetica, sans serif;
+  font-family: "AvenirBold", Helvetica, sans serif;  
 }
  
 
@@ -36,7 +36,8 @@ strong{
 
 @font-face {
     font-family: AvenirBold;
-    src: url("font-awesome/AvenirNextBold.otf");
+    font-weight:700;
+    src: url("font-awesome/AvenirBold.otf");
 }
 
 #met{margin-right:24%; margin-bottom:1%; width:5%;}
@@ -48,6 +49,7 @@ strong{
 #botones{margin-left: 11.5%;}
 
 .toggle{font-size:22px;}
+
 
  header.smaller {
     height: 75px;
@@ -487,13 +489,13 @@ section.module.parallax {
 }
 
 .menu--shylock .menu__link::before {
-  background: white;
+  background: #b5b5b5;
   -webkit-transition-delay: 0.4s;
   transition-delay: 0.4s;
 }
 
 .menu--shylock .menu__link::after {
-  background: white;
+  background: #b5b5b5;
 }
 
 
